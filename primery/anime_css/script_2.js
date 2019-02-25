@@ -6,7 +6,7 @@
 			setTimeout(add_korona,1400);
 		},
 		function() {
-			$(this).children(".box_korona").removeClass("rotate");
+			$(this).children(".box_korona"); //.removeClass("rotate");
 			$(this).children(".box_korona").children(".korona").removeClass("swing");
 		});
 
@@ -18,6 +18,6 @@
 		$(".box_button_2 .but_form").children(".krilo_right").css({"visibility":"visible"}).addClass("akt");
 	}
 	function add_korona() {
-		$(".box_button_2 .but_form").children(".box_korona").addClass("rotate");
+		$(".box_button_2 .but_form").children(".box_korona"); //.addClass("rotate");
 		$(".box_button_2 .but_form").children(".box_korona").children(".korona").addClass("swing");
 	}

@@ -48,6 +48,9 @@ body
 body div, body legend {
 	box-sizing: border-box;
 }
+hr {
+	border:dotted 1px #623790;
+}
 .div_body { margin:0; padding:0;}
 .div_body
 { 
@@ -221,7 +224,6 @@ body div, body legend {
 #content-wrapper
 {
 	padding-top: 52px;
-
 }
 
 #content
@@ -229,7 +231,6 @@ body div, body legend {
 	width: 80%;
 	margin: 0 auto 4em;
 	overflow: auto;
-	
 }
 
 #work-area
@@ -241,7 +242,6 @@ body div, body legend {
 	height: auto;
 	height:100%;
 	padding-bottom:50px;
-	
 }
 
 #sidebar

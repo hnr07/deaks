@@ -1,5 +1,4 @@
 .box_button_1 {
-	max-width:1250px;
 	text-align:center;
 	margin:50px auto 10px;
 	position:relative;
@@ -11,7 +10,7 @@
 	display:inline-block;
 	vertical-align:top;
 	position:relative;
-	margin:10px 0px 0px 200px;
+	margin:10px auto;
 	cursor:pointer;
 	background-color:#fff;
 	box-sizing: border-box;
