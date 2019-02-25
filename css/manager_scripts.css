@@ -1,0 +1,137 @@
+
+.manager_scripts .chte {
+position:relative;
+margin:20px;
+}
+.manager_scripts  .chte span{
+cursor:pointer;
+}
+.manager_scripts  input[type=submit]{
+border:0;
+background-color:#fff;
+}
+.manager_scripts .txt {
+display:none;
+width:500px;
+padding:20px;
+background-color:#fff;
+border:solid 1px #c5c5c5;
+position:absolute;
+top:20px;
+left:20px;
+z-index:10;
+cursor:pointer;
+line-height: 16pt;
+}
+.manager_scripts .tmbl {
+margin:30px 10px;
+}
+.manager_scripts .tmbl tr {
+border:solid 1px green;
+}
+.manager_scripts .tmbl td,.tmbl th {
+padding:5px;
+text-align:center;
+font-size:10pt;
+}
+.manager_scripts .gg {
+color:green;
+font-size:9pt;
+}
+.manager_scripts  .gk {
+color:red;
+font-size:9pt;
+}
+.manager_scripts  input[type=submit].buts {
+border:solid 1px #b5b5b5;
+padding:3px;
+background-color:#cbe7e3;
+}
+.manager_scripts .bta  td {
+padding:5px;
+text-align:left;
+font-size:10pt;
+
+}
+.manager_scripts .bta .sht, .chte {
+position:relative;
+}
+.manager_scripts .bta .sht div, .chte span{
+cursor:pointer;
+}
+
+.manager_scripts  #sz {
+display:none;
+position:absolute;
+top:20px;
+right:100px;
+}
+.manager_scripts  #sz div{
+text-align:center;
+margin-top:23px;
+
+}
+.manager_scripts .input_text {
+border:solid 1px #b5b5b5;
+width:200px;
+}
+.manager_scripts .a_vozo {
+text-align:right;
+position:relative;
+}
+.manager_scripts .a_vozo  a{
+text-decoration:none;
+}
+.manager_scripts .a_vozo  a:hover{
+text-decoration:underline;
+}
+
+.manager_scripts .f_van{
+border:solid 1px #cbe7e3;
+
+width:260px;
+}
+.manager_scripts .f_van  .t_van{
+
+margin:5px;
+padding:5px;
+width:250px;
+}
+.manager_scripts .f_van  .t_van select{
+border:solid 1px #b5b5b5;
+width:240px;
+}
+.manager_scripts .f_van  .t_van input[type=text]{
+border:solid 1px #b5b5b5;
+width:240px;
+}
+.manager_scripts .sel_sy {
+border:solid 1px #b5b5b5;
+}
+.manager_scripts textarea{
+border:solid 1px #b5b5b5;
+width:100%;
+height:200px;
+}
+.manager_scripts .but_ar {
+border:solid 1px #b2b2b2;
+margin:3px 3px;
+padding:3px 5px;;
+display:inline-block;
+cursor:pointer;
+background-color:#cbe7e3;
+font-size:9pt;
+}
+.manager_scripts .obrazec{
+border:solid 1px #b2b2b2;
+margin:3px 3px;
+padding:15px;
+font-size:11pt;
+}
+
+.div_mess {
+		margin:10px 20px;
+	}
+.div_mess .text{
+	display:none;
+}

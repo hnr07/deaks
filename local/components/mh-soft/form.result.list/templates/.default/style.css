@@ -1,0 +1,91 @@
+#list_result_form  table.form-table
+{
+	width:100%;
+	background-color:white;
+	border-collapse:collapse;
+	font-size:100%;
+	font-weight:normal;
+	line-height:160%;
+}
+
+#list_result_form  table.form-table th, #list_result_form  table.form-table td
+{
+	border:1px solid #ADC3D5;
+	padding: 5px 5px;
+	vertical-align:top;
+}
+
+#list_result_form  table.form-table th
+{
+	background-image:url(images/table_head.gif);
+	background-repeat:repeat-x;
+	text-align: left;
+	color:#25639A;
+}
+
+
+#list_result_form  table.form-table td
+{
+	padding: 15px 5px;
+}
+
+#list_result_form  table.form-filter-table
+{
+	background-color:white;
+	font-size:100%;
+	border-collapse:collapse;
+}
+
+#list_result_form  table.form-filter-table th
+{
+	background-image:url(images/table_head.gif);
+	background-repeat:repeat-x;
+	text-align: center;
+	font-size:100%;
+	color:#25639A;
+}
+
+#list_result_form  table.form-filter-table td, #list_result_form  table.form-filter-table th
+{
+	padding:3px;
+	border:1px solid #ADC3D5;
+}
+
+#list_result_form  table.form-filter-table td
+{
+	vertical-align: top;
+}
+#list_result_form  .list_c {
+height:300px;
+overflow: auto;
+}
+
+
+#list_result_form  table.form-table table.form-results-header-inline td, #list_result_form  table.form-table table.form-results-header-inline th {
+	border: 0px !important;
+	padding: 0px !important;
+	background: none !important;
+}
+
+#list_result_form  .div_filter, #list_result_form  .box_status, #list_result_form  .columns_tool, #list_result_form  .box_sticker, #list_result_form .box_copy, #list_result_form  .box_del, #list_result_form  .box_qs{
+display:none;
+border:1px solid #ADC3D5;
+margin:10px;
+padding:10px;
+background-image:url(images/table_head.gif);
+background-repeat:repeat-x;
+}
+
+
+#list_result_form .div_show {
+display:block;
+
+}
+
+#list_result_form .div_none {
+display:none;
+
+}
+#list_result_form  input, #list_result_form  textarea, #list_result_form  select{
+border:1px solid #ADC3D5;
+}

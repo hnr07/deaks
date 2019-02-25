@@ -1,0 +1,100 @@
+.box_button_1 {
+	max-width:1250px;
+	text-align:center;
+	margin:50px auto 10px;
+	position:relative;
+}
+
+.box_button_1 .but_form {
+	width:156px;
+	height:106px;
+	display:inline-block;
+	vertical-align:top;
+	position:relative;
+	margin:10px 0px 0px 200px;
+	cursor:pointer;
+	background-color:#fff;
+	box-sizing: border-box;
+	border-radius:6px; 
+	border:solid 1px #d0d0d0;
+	color:#231f20;
+	text-align:center;
+	
+}
+.box_button_1 .but_form .filter_img {
+	
+	width:154px;
+	height:104px;
+	display:inline-block;
+	margin:0px;
+	padding:10px 20px;
+	position:relative;
+	box-sizing: border-box;
+	border-radius:6px;
+	background-size:contain;
+	background:linear-gradient(to top right, #fccf2e, #feeb3d, #fccf2e);
+	border:solid 5px #fff;
+	z-index:10;
+}
+
+
+.box_button_1 .but_form .tit {
+	font-size:20pt;
+	margin-top:10px;
+}
+.box_button_1 .but_form .not {
+	font-size:14pt;
+}
+.box_button_1 .but_form .krilo {
+	width:146px;
+	height:104px;
+	position:absolute;
+	top:10px;
+	z-index:7;
+}
+.box_button_1 .but_form .korona {
+	width:86px;
+	height:50px;
+	background:url('images/korona.png') center no-repeat;
+	position:absolute;
+	top:0px;
+	left:35px;
+	transition: top 1s ease-out 0.5s;
+	z-index:7;
+}
+.box_button_1 .but_form:hover .korona  {
+	top:-62px;
+	transition: top 1s ease-out 0.5s;
+}
+.box_button_1 .but_form .krilo.krilo_left {
+	left:-120px;
+	background:url('images/krilo_left.png') center no-repeat;
+	transform-origin:146px 30px;
+}
+.box_button_1 .but_form .krilo.krilo_right {
+	right:-120px;
+	background:url('images/krilo_right.png') center no-repeat;
+	transform-origin:0px 30px;
+}
+.box_button_1 .but_form:hover .krilo_left  {
+	animation: elemleft 2s infinite ease-in-out;
+}
+.box_button_1 .but_form:hover .krilo_right  {
+	animation: elemright 2s infinite ease-in-out;/*linear*/
+}
+@keyframes elemleft {
+  0%,100% {transform:rotate(0deg)}
+  50%{transform:rotate(50deg)}
+ }
+
+ 
+ @keyframes elemright {
+	0%,100% {transform:rotate(0deg)}
+  50%{transform:rotate(-50deg)}
+	 /*
+  0%,100% {transform:rotate(0deg)}
+  25%{transform:rotate(-50deg)}
+  50%{transform:rotate(0deg)}
+  75%{transform:rotate(30deg)}
+  */
+ }

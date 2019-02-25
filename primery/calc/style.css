@@ -1,0 +1,438 @@
+.box_calc .calc_2 {
+	max-width:800px;
+	margin:0 auto;
+	background:#f4f4f4;
+	padding:20px 30px;
+	font-family: 'NeoSansCyr-Light';
+}
+.box_calc .calc_2 #field_area {
+	position:relative;
+	width:486px;
+	border:solid 1px transparent;
+	padding-bottom:110px;	
+}
+.box_calc .calc_2 .l_box{
+	display:table-cell;
+}
+.box_calc .calc_2 .r_box{
+	vertical-align:top;
+	display:table-cell;
+	padding-top:20px;
+}
+.box_calc .calc_2 .div_img {
+	width:255px;
+	height:175px;
+	background-image:url(/images/calc/plitka.png);
+	background-size:auto;
+	background-repeat: no-repeat;
+	background-position:0px 0px;
+	margin:10px;
+}
+
+.box_calc .calc_2 .div_img_a {
+	background-position:0px -175px;
+}
+.box_calc .calc_2 .div_img_b {
+	background-position:0px -350px;
+}
+.box_calc .calc_2 .div_img_k {
+	background-position:0px -525px;
+}
+.box_calc .calc_2 .div_img_t {
+	background-position:0px -700px;
+}
+.box_calc .calc_2 .add {
+	margin:10px;
+	font-size: 24px;
+	line-height: 48px;
+	position:relative;
+	width:466px;
+	height:48px;
+}
+.box_calc .calc_2 .add div, .box_calc .calc_2 .add input {
+	float:left;
+}
+.box_calc .calc_2 .add .npc {
+	width:30px;
+	height:48px;
+	text-align:right;
+}
+.box_calc .calc_2 .add .but_ukladka {
+	margin:0px 10px;
+	cursor:pointer;
+	position:relative;
+}
+.box_calc .calc_2 .add .but_ukladka div{
+	background-repeat: no-repeat;
+	background-image:url(/images/calc/butt.png);
+	
+}
+.box_calc .calc_2 .add .but_ukladka .ku {
+	position:relative;
+}
+
+.box_calc .calc_2 .add .but_ukladka .ku_a {
+	height:48px;
+	width:48px;
+	background-size:96px 96px;
+	background-position:0px 0px;
+	cursor:default;
+}
+.box_calc .calc_2 .add .but_ukladka .ku_p {
+	height:48px;
+	width:48px;
+	background-size:96px 96px;
+	background-position:0px -48px;
+	z-index:1;
+}
+.box_calc .calc_2 .add .but_ukladka .ku_p:hover {
+	-moz-box-shadow:0px 0px 5px #000;
+	-webkit-box-shadow:0px 0px 5px #000;
+	box-shadow:0px 0px 5px #000;
+	z-index:2;
+}
+.box_calc .calc_2 .add .but_ukladka .tu {
+	position:relative;
+}
+
+.box_calc .calc_2 .add .but_ukladka .tu_a {
+	height:48px;
+	width:48px;
+	background-size:96px 96px;
+	background-position:-48px -48px;
+	cursor:default;
+}
+.box_calc .calc_2 .add .but_ukladka .tu_p {
+	height:48px;
+	width:48px;
+	background-size:96px 96px;
+	background-position:-48px 0px;
+	z-index:1;
+}
+.box_calc .calc_2 .add .but_ukladka .tu_p:hover {
+	-moz-box-shadow:0px 0px 5px #000;
+	-webkit-box-shadow:0px 0px 5px #000;
+	box-shadow:0px 0px 5px #000;
+	z-index:2;
+}
+.box_calc .calc_2 .add input {
+	font-family: 'NeoSansCyr-Light';
+	text-align:right;
+	color: #000;
+	font-size: 32px;
+	font-weight:lighter;
+	padding: 3px;
+	width: 70px;
+	height:48px;
+	box-sizing: border-box;
+	border-style:solid;
+	border-color:#525252;
+	border-width:2px;
+	border-right:0;
+	position:relative;
+	z-index:1;
+}
+.box_calc .calc_2 .add input:hover, .box_calc .calc_2 .add input:focus {
+	border-color:#7bc142;
+	/*border-right:2px;*/
+	-moz-box-shadow:1px 0px 1px 2px #7bc142;
+	-webkit-box-shadow:1px 0px 1px 2px #7bc142;
+	box-shadow:1px 0px 2px 2px #7bc142;
+	z-index:2;
+}
+.box_calc .calc_2 .add .input_err {
+	/*background-color:#fcfbad;*/
+	background-color:rgb(255, 140, 140);
+}
+.box_calc .calc_2 .add .ssp {
+	width: 156px;
+	border-right:solid 2px #525252;
+}
+
+
+.box_calc .calc_2 .itog {
+	font-family: 'NeoSansCyr-Regular';
+	width:459px;
+	height:46px;
+	/*
+	background-image:-webkit-linear-gradient(top, #ffc64c 0%, #ffae00 100%);
+	background-image:-moz-linear-gradient(top, #ffc64c 0%, #ffae00 100%);
+	background-image:-o-linear-gradient(top, #ffc64c 0%, #ffae00 100%);
+	background-image:-ms-radial-gradient(top, #ffc64c 0%, #ffae00) 100%);
+	background-image:linear-gradient(to top, #ffc64c 0%, #ffae00 100%);
+	*/
+	background-color:#ffcc00;
+	font-size:23px;
+	font-weight:400;
+	letter-spacing:1px;
+	cursor:pointer;
+	position:absolute;
+	border:0;
+	left:50px;
+	bottom:0px;
+	-moz-box-shadow:0px 4px 0px #ffb800;
+	-webkit-box-shadow:0px 4px 0px #ffb800;
+	box-shadow: 0px 4px 0px #ffb800;
+}
+
+.box_calc .calc_2 .itog:hover {
+	-moz-box-shadow:0px 4px 0px #e19900;
+	-webkit-box-shadow:0px 4px 0px #e19900;
+	box-shadow: 0px 4px 0px #e19900;
+}
+.box_calc .calc_2 .addbutton {
+	font-family: 'NeoSansCyr-Regular';
+	width:459px;
+	height:46px;
+	/*
+	background-image:-webkit-linear-gradient(top, #7bc142 0%, #a8d187 100%);
+	background-image:-moz-linear-gradient(top, #7bc142 0%, #a8d187 100%);
+	background-image:-o-linear-gradient(top, #7bc142 0%, #a8d187 100%);
+	background-image:-ms-radial-gradient(top, #7bc142 0%, #a8d187 100%);
+	background-image:linear-gradient(to top, #7bc142 0%, #a8d187 100%);
+	*/
+	background-color:#7bc142;
+	font-size:23px;
+	font-weight:400;
+	letter-spacing:1px;
+	cursor:pointer;
+	position:absolute;
+	border:0;
+	left:50px;
+	bottom:60px;
+	color:#fff;
+	-moz-box-shadow:0px 4px 0px #70af3c;
+	-webkit-box-shadow:0px 4px 0px #70af3c;
+	box-shadow: 0px 4px 0px #70af3c;
+}
+
+.box_calc .calc_2 .addbutton:hover {
+	-moz-box-shadow:0px 4px 0px #5ea524;
+	-webkit-box-shadow:0px 4px 0px #5ea524;
+	box-shadow: 0px 4px 0px #5ea524;
+}
+.box_calc .calc_2 .deletebutton {
+	height:48px;
+	width:48px;
+	background-repeat: no-repeat;
+	background-image:url(/images/calc/del-str.png);
+	background-position:0px 0px;
+	background-size:96px 48px;
+	cursor:pointer;
+	position:absolute;
+	top:0px;
+	right:-32px;
+	float:none;
+}
+.box_calc .calc_2 .deletebutton:hover {
+	background-position:-48px 0px;
+}
+.box_calc .calc_2 .note {
+	position:absolute;
+	width:296px;
+	height:38px;
+	box-sizing: border-box;
+	top:-28px;
+	left:156px;
+	color:#fff;
+	font-size:27px;
+	background-color:#525252;
+	border-style:solid;
+	border-color:#525252;
+	border-width:0px 2px;
+}
+.box_calc .calc_2 .note div {
+	float:left;
+	text-align:center;
+	height:38px;
+	line-height: 38px;
+}
+.box_calc .calc_2 .note .note_s {
+	width:68px;
+	border-right:solid 2px #fff;
+}
+.box_calc .calc_2 .note .note_p {
+	width:150px;
+}
+.box_calc .calc_2 .note_u {
+	position:absolute;
+	width:96px;
+	height:38px;
+	box-sizing: border-box;
+	top:-23px;
+	left:52px;
+	color:#525252;
+	font-size:27px;
+	line-height: 30px;
+}
+.box_calc .calc_2 sup{
+	font-size:50%;
+}
+.box_calc .calc_2 .plitka_k {
+	background:url(/images/calc/plitka_k.png);
+}
+.box_calc .calc_2 .plitka_t {
+	background:url(/images/calc/plitka_t.png);
+}
+.paymasvisa {
+	display:inline-block;
+	width:119px;
+	height:30px;
+	margin-top:10px;
+	background:url(/images/paymasvisa.svg);
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+
+@media(max-width: 819px) {
+	.box_calc .calc_2 .l_box{
+		display:block;
+		margin-bottom:3px;
+	}
+	.box_calc .calc_2 .l_box .div_img{
+		margin:0px auto 5px;
+	}
+	.box_calc .calc_2 .r_box{
+		display:block;
+		width:500px;
+		margin:0px auto;
+	}
+}
+@media(max-width: 649px) {
+	.box_calc .calc_2 {
+		padding:0px;
+		
+		
+	}
+	.box_calc .calc_2 .r_box{
+		width:320px;
+		margin:0px auto;
+	}
+	.box_calc .calc_2 #field_area {
+		width:303px;
+		padding-bottom:95px;		
+	}
+	.box_calc .calc_2 .add {
+		margin:5px;
+		font-size: 18px;
+		line-height: 30px;
+		width:303px;
+		height:40px;
+	}
+	.box_calc .calc_2 .add .npc {
+		display:none;
+	}
+	.box_calc .calc_2 .add .but_ukladka {
+		margin:0px 5px 0px 0px;
+		height:40px;
+		width:40px;
+	}
+	.box_calc .calc_2 .add .but_ukladka div{
+		
+	}
+	.box_calc .calc_2 .add .but_ukladka .ku {
+		position:absolute;
+	}
+	
+	.box_calc .calc_2 .add .but_ukladka .tu {
+		position:absolute;
+	}
+	
+	.box_calc .calc_2 .add .but_ukladka .ku_a {
+		height:12px;
+		width:12px;
+		background-size:24px 24px;
+		top:0px;
+		right:0px;
+		background-position:-12px 0px;
+		z-index:4;
+		cursor:default;
+	}
+	.box_calc .calc_2 .add .but_ukladka .ku_p {
+		height:40px;
+		width:40px;
+		background-size:80px 80px;
+		top:0px;
+		left:0px;
+		background-position:-40px 0px;
+		z-index:3;
+	}
+	.box_calc .calc_2 .add .but_ukladka .tu_a {
+		height:12px;
+		width:12px;
+		background-size:24px 24px;
+		top:0px;
+		right:0px;
+		background-position:0px 0px;
+		z-index:4;
+		cursor:default;
+	}
+	.box_calc .calc_2 .add .but_ukladka .tu_p {
+		height:40px;
+		width:40px;
+		background-size:80px 80px;
+		top:0px;
+		left:0px;
+		background-position:0px 0px;
+		z-index:3;
+	}
+	
+	.box_calc .calc_2 .add input {
+		font-size: 23px;
+		padding: 2px;
+		width: 50px;
+		height:40px;
+	}
+	.box_calc .calc_2 .add .ssp {
+		width: 114px;
+	}
+	.box_calc .calc_2 .deletebutton {
+		height:40px;
+		width:40px;
+		background-size:80px 40px;
+		top:0px;
+		right:0px;
+	}
+	.box_calc .calc_2 .deletebutton:hover {
+		background-position:-40px 0px;
+	}
+	.box_calc .calc_2 .note {
+		width:214px;
+		height:35px;
+		top:-32px;
+		left:50px;
+		font-size:18px;
+	}
+	.box_calc .calc_2 .note span {
+		font-size:27px;
+	}
+	.box_calc .calc_2 .note div {
+		height:35px;
+		line-height: 35px;
+	}
+	.box_calc .calc_2 .note .note_s {
+		width:48px;
+	}
+	.box_calc .calc_2 .note .note_p {
+		width:110px;
+	}
+	.box_calc .calc_2 .note_u {
+		display:none;
+	}
+	.box_calc .calc_2 .addbutton, .box_calc .calc_2 .itog {
+		width:303px;
+		height:43px;
+		left:5px;
+		font-size:23px;
+	}
+	.box_calc .calc_2 .addbutton {
+		bottom:52px;
+	}
+	.paymasvisa {
+		display:block;
+		width:89px;
+		height:20px;
+		margin:2px auto;
+
+	}
+}

@@ -1,0 +1,43 @@
+.tuu {
+margin: 20px;
+padding:20px 40px;
+border:solid 1px #a2a2a2;
+  -moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 10px; /* Safari, Chrome */
+  -khtml-border-radius: 10x; /* KHTML */
+  border-radius: 10px; /* CSS3 */
+        -moz-box-shadow: 0 0 15px #a2a2a2; /* Firefox */
+    -webkit-box-shadow: 0 0 15px #a2a2a2; /* Safari, Chrome */
+    box-shadow: 0 0 15px #a2a2a2; /* CSS3 */
+}
+/*.tuu p{
+text-indent: 20px;
+}*/
+.tuu h2, .tuu h3{
+text-align: center;
+}
+.tuu .pli {
+text-decoration: underline;
+}
+.tuu .plib {
+text-decoration: underline;
+font-weight: bold;
+}
+.tuu .plc {
+font-style: italic;
+}
+.tuu .plb {
+font-weight: bold;
+}
+.tuu li{
+list-style-type: disc;
+margin: 5px 0 5px 40px;
+}
+.tuu #a_pero, .tuu #ia_pero{
+display:none;
+}
+.pfl a {
+margin: 0 15px;
+font-size:20pt;
+padding:auto;
+}

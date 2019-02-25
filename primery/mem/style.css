@@ -1,0 +1,226 @@
+ .dd_res table td {
+	 padding:10px;
+	 text-align:center;
+ }
+  .dd_res table td  input{
+
+	width:300px;
+ }
+ 
+ .t_edit td{
+	padding:5px;
+ }
+ .form_red_fio {
+	display:block;
+}
+.form_red_text, .form_red_fio {
+	border:solid 1px #006600;
+	text-align:center;
+	color:#006600;
+	width:200px;
+	border-radius:8px;
+}
+.form_red_text button{
+	margin:5px;
+	border:solid 1px #006600;
+	color:#006600;
+	width:70px;
+	border-radius:8px;
+}
+.form_red_fio input, .a_download{
+	margin:5px;
+	padding-left:5px;
+	border:solid 1px #006600;
+	color:#006600;
+	width:170px;
+	border-radius:8px;
+}
+.a_download{
+height:30px;
+}
+.form_red_fio .div_color{
+
+}
+.form_red_fio .div_color div{
+
+border-radius:12px;
+	width:25px;
+	height:25px;
+
+}
+.form_red_fio .div_color input{
+	width:15px;
+	height:15px;
+
+}
+.form_red_fio .div_color table {
+
+}
+.form_red_fio .div_color table td {
+width:25px;
+padding:0px;
+}
+
+.fon_fo {
+	float:left;
+	width:300px;
+	height:300px;
+	margin:20px;
+	text-align: center;
+	line-height:300px;
+	border:solid 1px #b2b2b2;
+	border-radius:5px;
+background: -moz-linear-gradient(top, #fff 20%, #d2d2d2 100%);
+background: -webkit-linear-gradient(top, #fff 20%, #d2d2d2 100%);
+background: -o-linear-gradient(top, #fff 20%, #d2d2d2 100%);
+background: linear-gradient(top, #fff 20%, #d2d2d2 100%);
+
+-moz-box-shadow: 0 5px 5px rgba(0,0,0, 0.55);
+-webkit-box-shadow: 0 5px 5px rgba(0,0,0, 0.55); 
+box-shadow: 0 5px 5px rgba(0,0,0, 0.55);
+}
+
+.anketa {
+padding:30px;
+width:600px;
+border:solid 1px #b2b2b2;
+-moz-box-shadow: 0 5px 5px rgba(0,0,0, 0.55);
+-webkit-box-shadow: 0 5px 5px rgba(0,0,0, 0.55); 
+box-shadow: 0 5px 5px rgba(0,0,0, 0.55);
+}
+.anketa  td{
+padding:10px;
+}
+.anketa  td input[type=text], .edit_pro input[type=text]{
+width:300px;
+border:solid 1px #b2b2b2;
+border-radius:5px;
+}
+.anketa  td  textarea, .edit_pro textarea{
+width:300px;
+height:100px;
+border:solid 1px #b2b2b2;
+border-radius:5px;
+}
+.pro {
+position:relative;
+
+}
+.pro span{
+font-weight: bolder;
+}
+.pro .dip{
+position:absolute;
+border:solid 1px #b2b2b2;
+-moz-box-shadow: 0 5px 5px rgba(0,0,0, 0.55);
+-webkit-box-shadow: 0 5px 5px rgba(0,0,0, 0.55); 
+box-shadow: 0 5px 5px rgba(0,0,0, 0.55);
+top:20px;
+left:40px;
+padding:5px;
+background:#faefbc;
+display:none;
+}
+.anketa  .anketa_mem_but, .edit_pro  .anketa_mem_but, .pro .anketa_mem_but{
+width:100px;
+border:solid 1px #b2b2b2;
+border-radius:5px;
+height:20px;
+}
+.edit_pro {
+	display:none;
+}
+.div_but {
+	background-color:#f0f0f0;
+}
+
+.div_socset_ico  div{
+
+float:left;
+height:32px;
+
+margin:5px 3px;
+}
+.div_socset_ico .tit {
+margin-top:10px;
+}
+div.b-share-icon_vkontakte {
+background: url(/images/soc_icons/VK_s.png) 0px 0px no-repeat;
+width:32px;
+height:32px;
+}
+div .div_socset_ico div.b-share-icon_vkontakte:hover {
+background: url(/images/soc_icons/VK.png) 0px 0px no-repeat;
+}
+
+div.div_socset_ico div.b-share-icon_facebook {
+background: url(/images/soc_icons/FB_s.png) 0px 0px no-repeat;
+width:32px;
+height:32px;
+}
+div.div_socset_ico div.b-share-icon_facebook:hover {
+background: url(/images/soc_icons/FB.png) 0px 0px no-repeat;
+}
+div.div_socset_ico div.b-share-icon_odnoklassniki {
+background: url(/images/soc_icons/Odnoklasniki_s.png) 0px 0px no-repeat;
+width:32px;
+height:32px;
+}
+div.div_socset_ico div.b-share-icon_odnoklassniki:hover {
+background: url(/images/soc_icons/Odnoklasniki.png) 0px 0px no-repeat;
+}
+div.div_socset_ico div.b-share-icon_mail {
+background: url(/images/soc_icons/mail_s.png) 0px 0px no-repeat;
+width:32px;
+height:32px;
+}
+div.div_socset_ico div.b-share-icon_mail:hover {
+background: url(/images/soc_icons/mail.png) 0px 0px no-repeat;
+}
+div.div_socset_ico div.b-share-icon_twitter {
+background: url(/images/soc_icons/Twitter_s.png) 0px 0px no-repeat;
+width:32px;
+height:32px;
+}
+div.div_socset_ico div.b-share-icon_twitter:hover {
+background: url(/images/soc_icons/Twitter.png) 0px 0px no-repeat;
+}
+
+.menu-mem li {
+	color:#006600;
+	list-style-type:none;
+}
+.menu-mem li.active {
+	list-style-type:disc;
+}
+ a {
+	color:#006600;
+	text-decoration:none;
+}
+ a:hover {
+	text-decoration:underline;
+}
+
+.t_edit .image {
+	box-sizing: border-box;
+	width:500px;
+	height:500px;
+	position:relative;
+	background-color:#fff;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image:url('/images/preloader_64.gif');
+
+}
+.t_edit .image .result {
+	box-sizing: border-box;
+	width:500px;
+	height:500px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color:transparent;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+}

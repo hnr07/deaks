@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'arialn';
+  src: url('arialn.ttf')  format('truetype'), 
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+	font-family: "arialn",arial;
+}
+.table_itog {
+	font-size:12px;
+	border-collapse: collapse;
+	margin:0px 20px 0px 0px;
+}
+.table_itog td, table th{
+	padding:5px;
+	border:solid 1px #b2b2b2;
+	-min-width:100px;
+}
+.table_itog .text_r {
+	text-align:right;
+}
+#f_table input[type=text] {
+	width:500px;
+}
+#f_table .table_itog button {
+	font-size:8px;
+	width:26px;
+	border:solid 1px #333;
+	color:#333;
+	background-color:#ebebeb;
+}
+#f_table .table_itog .but_a {
+	color:#fff;
+	background-color:#5b5b5b;
+}
+.box_nstr {
+	width:600px;
+	margin:40px auto;
+	text-align:center;
+}
+.tit_tab {
+	margin-bottom:5px;
+}
+.a_img {
+	width:100px;
+	height:75px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size: contain;
+	position:relative;
+}
+.d_img {
+	position:absolute;
+	top:-15px;
+	left:105px;
+	display:none;
+	z-index:10;
+}
+.print_all_ico {
+	float:right;
+	width:50px;
+	height:50px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-image:url('print-icon.png');
+}
+.print_table_ico {
+	display:inline-block;
+	width:24px;
+	height:24px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-image:url('print-icon.png');
+}
+.setting_ico {
+	display:inline-block;
+	width:24px;
+	height:24px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-image:url('cog-icon.png');
+}
+.but_bome {
+	margin-top:5px;
+	float:right;
+	width:57px;
+}
+#but_bome_0, #bome {
+	display:none;
+}
+.notc {
+	display:inline-block;
+	text-align:right;
+	width:20px;
+
+	font-size:14px;
+	position:relative;
+}
+.f_table fieldset {
+	display:inline-block;
+}
+.div_df {
+	width:180px;
+	padding:5px;
+	margin:5px;
+	float:left;
+	border:solid 2px #757575;
+}
+.div_df a {
+	color:#757575;
+}
+.div_df a:hover {
+	text-decoration:none;
+}
+.div_df .del {
+	float:right;
+	border:solid 2px red;
+	cursor:pointer;
+	width:22px;
+	height:22px;
+	color:red;
+	text-align:center;
+	font-size:15px;
+}
+.div_df .del:hover {
+	background-color:red;
+	color:#fff;
+
+}
+#f_table .g_sub {
+	height:50px;
+	font-size:16px;
+}

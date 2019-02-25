@@ -1,0 +1,26 @@
+.private_office {
+
+}
+.private_office .left{
+width:230px;
+position:relative;
+float:left;
+}
+.private_office .right{
+width:700px;
+float:left;
+margin-left:20px;
+}
+
+.private_office li {
+ color:#41295a;
+}
+
+.private_office input{
+color:#41295a;
+ width:220px;
+ height: 20px;
+ border:solid 1px #9d84b8;
+ margin:2px 0px;
+ border-radius:5px;
+}

@@ -1,0 +1,117 @@
+#opros {
+
+}
+#opros  .t_ti{
+
+}
+#opros  .t_ti tr{
+border-bottom:solid 1px #6da424;
+}
+#opros  .t_ti th, #opros  .t_ti td{
+padding:10px;
+}
+#opros  .t_ti thead tr{
+background:#6ca424;
+background: -moz-linear-gradient(top, #c1e97c 0%, #6ca424 50%);
+background: -webkit-linear-gradient(top, #c1e97c 0%, #6ca424 50%);
+background: -o-linear-gradient(top, #c1e97c 0%, #6ca424 50%);
+background: linear-gradient(top, #c1e97c 0%, #6ca424 50%);
+color:#fff;
+}
+#opros  .t_ti thead th{
+border:solid 1px #fff;
+}
+#opros  .t_ti .trh{
+background:linear-gradient(to right,#6da424,#fff);
+}
+
+#opros  .t_ti .plh, #opros  .t_ti .pla{
+display:table-row;
+}
+
+#opros input[type=text], #opros textarea {
+border:solid 1px #d0d0d0;
+border-radius:5px;
+padding:3px;
+}
+#opros input[type=text] {
+width:300px;
+font-size:12pt;
+margin:5px;
+}
+#opros textarea {
+width:300px;
+height:75px;
+}
+
+#opros .but_s {
+width:120px;
+height:30px;
+margin:20px auto;
+color:#fff;
+background:#6ca424;
+background: -moz-linear-gradient(top, #c1e97c 0%, #6ca424 50%);
+background: -webkit-linear-gradient(top, #c1e97c 0%, #6ca424 50%);
+background: -o-linear-gradient(top, #c1e97c 0%, #6ca424 50%);
+background: linear-gradient(top, #c1e97c 0%, #6ca424 50%);
+border-radius:5px;
+border:0;
+}
+#opros .but_s:hover {
+background: -moz-linear-gradient(top, #c1e97c 0%, #6ca424 70%);
+background: -webkit-linear-gradient(top, #c1e97c 0%, #6ca424 70%);
+background: -o-linear-gradient(top, #c1e97c 0%, #6ca424 70%);
+background: linear-gradient(top, #c1e97c 0%, #6ca424 70%);
+}
+#opros input[type=submit] {
+
+display:none;
+}
+#opros .zap {
+width:400px;
+border:solid 1px #d0d0d0;
+border-radius:5px;
+padding:5px;
+background: -moz-linear-gradient(to right,#d0d0d0,#fff);
+background: -webkit-linear-gradient(to right,#d0d0d0,#fff);
+background: -o-linear-gradient(to right,#d0d0d0,#fff);
+background:linear-gradient(to right,#d0d0d0,#fff);
+}
+#opros .div_but {
+height:100px;
+}
+#opros .div_fio {
+width:550px;
+float:left;
+
+}
+#opros .div_ah {
+width:300px;
+float:left;
+
+}
+#opros  .div_select {
+float:left;
+}
+#opros  .div_select:nth-child(even) {
+margin-right:40px;
+width:500px;
+text-align:right;
+}
+#opros  .div_select select {
+border:solid 1px #d0d0d0;
+border-radius:5px;
+padding:3px;
+width:300px;
+background: -moz-linear-gradient(to right,#d0d0d0,#fff);
+background: -webkit-linear-gradient(to right,#d0d0d0,#fff);
+background: -o-linear-gradient(to right,#d0d0d0,#fff);
+background:linear-gradient(to right,#d0d0d0,#fff);
+}
+#opros  .div_select [type=text]{
+background: -moz-linear-gradient(to right,#d0d0d0,#fff);
+background: -webkit-linear-gradient(to right,#d0d0d0,#fff);
+background: -o-linear-gradient(to right,#d0d0d0,#fff);
+background:linear-gradient(to right,#d0d0d0,#fff);
+}
+

@@ -1,0 +1,204 @@
+#form_register .tit_pol {
+font-size:13pt;
+margin:10px 20px 10px 10px;
+}
+
+.nich {
+width:100%;
+clear:both;
+}
+#form_register .shkala {
+width:220px;
+margin:20px auto;
+}
+#form_register .shkala .ts_1 {
+float:left;
+color:#6ca424;
+font-style:italic;
+}
+#form_register .shkala .ts_1_a {
+float:left;
+color:#6ca424;
+font-style:italic;
+cursor:pointer;
+text-decoration:underline;
+}
+#form_register .shkala .ts_1_a:hover {
+text-decoration:none;
+}
+#form_register .shkala .ts_2 {
+float:right;
+color:#a7a7a7;
+font-style:italic;
+}
+#form_register .shkala .ts_2_a {
+float:right;
+color:#6ca424;
+font-style:italic;
+}
+#form_register .shkala .img {
+margin:10px 0;
+}
+
+#form_register table td {
+
+}
+#form_register table tr td:nth-child(even){
+width:600px;
+}
+
+#form_register table td  input[type=text]{
+width:200px;
+font-size:14pt;
+border:solid 1px #d5d5d5;
+  -moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 10px; /* Safari, Chrome */
+  -khtml-border-radius: 10px; /* KHTML */
+  border-radius: 10px; /* CSS3 */
+  padding:4px 10px;
+  margin:10px;
+}
+#form_register  label.error{
+  color: #e20000;
+  display: inline-block;
+  width: 300px;
+  margin-left:30px;
+  font-size:12pt;
+}
+#form_register  label.error span.ersim{
+font-size:22pt;
+}
+#form_register  input[type=text].error{
+border:solid 2px #e20000;
+color: #e20000;
+padding:2px 8px;
+margin:11px;
+}
+#form_register table td  input[type=submit]{
+width:120px;
+height:40px;
+color:#fff;
+font-size:14pt;
+border:solid 1px #d5d5d5;
+  -moz-border-radius: 5px; /* Firefox */
+  -webkit-border-radius: 5px; /* Safari, Chrome */
+  -khtml-border-radius: 5px; /* KHTML */
+  border-radius: 5px; /* CSS3 */
+  background:#6ca424;
+  float:right;
+}
+
+#form_register .form_not_fon {
+position:absolute;
+top:0;
+left:0;
+width: 100%;
+height:100%;
+background:url("/images/register_site/finish_fon.png");
+z-index:1000;
+  }
+#form_register .form_not {
+width: 550px;
+height:350px;
+background:#fff;
+border:solid 1px #d5d5d5;
+  -moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 10px; /* Safari, Chrome */
+  -khtml-border-radius: 10px; /* KHTML */
+  border-radius: 10px; /* CSS3 */
+     -moz-box-shadow: 0 0 15px #000; /* Firefox */
+    -webkit-box-shadow: 0 0 15px #000; /* Safari, Chrome */
+    box-shadow: 0 0 15px #000; /* CSS3 */
+  padding:30px;
+  margin:auto auto;
+  margin-top:200px;
+  z-index:1001;
+  }
+#form_register .form_not .note  {
+font-size:14pt;
+}
+#form_register .form_not div.hr  {
+height:1px;
+background:#d5d5d5;
+margin:10px 0px;
+}
+#form_register .ap a {
+font-size:12pt;
+color:#6ca424;
+text-decoration:underline;
+}
+#form_register .ap a:hover {
+font-size:12pt;
+color:#6ca424;
+text-decoration:none;
+}
+#form_register .form_not .abut {
+text-align:center;
+}
+#form_register .form_not .abut  .esli{
+font-size:10pt;
+text-align:center;
+font-style:italic;
+}
+#form_register .form_not input[type=button]{
+width:240px;
+height:36px;
+color:#fff;
+font-size:11pt;
+border:solid 1px #d5d5d5;
+  -moz-border-radius: 5px; /* Firefox */
+  -webkit-border-radius: 5px; /* Safari, Chrome */
+  -khtml-border-radius: 5px; /* KHTML */
+  border-radius: 5px; /* CSS3 */
+  background:#6ca424;
+margin-top: 10px;
+}
+
+.parag_p input {
+border:solid 1px #b2b2b2;
+width:300px;
+height:25px;
+-moz-border-radius: 5px; /* Firefox */
+  -webkit-border-radius: 5px; /* Safari, Chrome */
+  -khtml-border-radius: 5px; /* KHTML */
+  border-radius: 5px; /* CSS3 */
+}
+.hep {
+margin-left:100px;
+}
+.hep textarea {
+border:solid 1px #b2b2b2;
+width:598px;
+height:100px;
+}
+.hep_html textarea {
+display:none;
+}
+.border-top{
+	height: 1px;
+	background-color: #a2a099;
+	margin-top: 25px;
+}
+.but_bao {
+text-align:center;
+color:#fff;
+padding:10px;
+background:#6ca424;
+-moz-border-radius: 5px; /* Firefox */
+  -webkit-border-radius: 5px; /* Safari, Chrome */
+  -khtml-border-radius: 5px; /* KHTML */
+  border-radius: 5px; /* CSS3 */
+}
+.ekip {
+height:250px;
+border:solid #b5b5b5 2px;
+-moz-border-radius: 5px; /* Firefox */
+  -webkit-border-radius: 5px; /* Safari, Chrome */
+  -khtml-border-radius: 5px; /* KHTML */
+  border-radius: 5px; /* CSS3 */
+  padding-left:80px;
+  padding-top:20px;
+}
+.hep_img {
+margin-top:20px;
+}

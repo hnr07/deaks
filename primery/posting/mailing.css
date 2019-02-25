@@ -1,0 +1,138 @@
+span .mm_g {
+font-size:16pt;
+color:#6ba425;
+}
+
+.title {
+color:#4f4f4f;
+font-size:13px;
+text-transform:uppercase;
+font-weight:bold;
+font-style:normal;
+}
+
+.posting input[type=text], .posting textarea {
+border:solid 1px #b2b2b2;
+width:300px;	
+}
+.posting textarea {
+border:solid 1px #b2b2b2;
+height:350px;	
+}
+.posting form div {
+margin:10px;
+position:relative;
+}
+.posting form div .img_big {
+display:none;
+position:absolute;
+top:70px;
+left:-300px;
+z-index:1000;
+-moz-box-shadow: 0 0 15px #b2b2b2; /* Firefox */
+-webkit-box-shadow: 0 0 15px #b2b2b2; /* Safari, Chrome */
+box-shadow: 0 0 15px #b2b2b2; /* CSS3 */
+}
+.posting input[type=submit] {
+	color:#fff;
+	font-size:17pt;
+	font-variant: small-caps;
+	width:300px;
+	height:40px;
+	border:0;
+background: #6ca424;
+background: -moz-linear-gradient(top, #c1e97c 10%, #6ca424 100%);
+background: -webkit-linear-gradient(top, #c1e97c 10%, #6ca424 100%);
+background: -o-linear-gradient(top, #c1e97c 10%, #6ca424 100%);
+background: linear-gradient(top, #c1e97c 10%, #6ca424 100%);
+cursor: pointer;
+}
+.posting .tit_fo {
+	font-size:11pt;
+	font-weight: bold;
+}
+.errror_div {
+	font-size:11pt;
+	font-weight: bold;
+	padding:10px 20px;
+	width:300px;
+	border:solid 1px #d1170e;
+-moz-box-shadow: 0 0 10px #d1170e; /* Firefox */
+-webkit-box-shadow: 0 0 10px #d1170e; /* Safari, Chrome */
+box-shadow: 0 0 10px #d1170e; /* CSS3 */
+}
+
+.ok_div {
+	font-size:11pt;
+	font-weight: bold;
+	padding:10px 20px;
+	width:300px;
+	border:solid 1px #6ca424;
+-moz-box-shadow: 0 0 10px #6ca424; /* Firefox */
+-webkit-box-shadow: 0 0 10px #6ca424; /* Safari, Chrome */
+box-shadow: 0 0 10px #6ca424; /* CSS3 */
+}
+
+.run_div {
+padding:20px;
+text-align:center;	
+}
+
+.run_div #run_posting {
+	color:#fff;
+	font-size:18pt;
+	font-variant: small-caps;
+	width:300px;
+	height:40px;
+	border:0;
+background: #6ca424;
+background: -moz-linear-gradient(top, #c1e97c 10%, #6ca424 100%);
+background: -webkit-linear-gradient(top, #c1e97c 10%, #6ca424 100%);
+background: -o-linear-gradient(top, #c1e97c 10%, #6ca424 100%);
+background: linear-gradient(top, #c1e97c 10%, #6ca424 100%);
+cursor: pointer;
+}
+.run_div #del_posting {
+	color:#fff;
+	font-size:18pt;
+	font-variant: small-caps;
+	width:300px;
+	height:40px;
+	border:0;
+background: #6ca424;
+background: -moz-linear-gradient(top, #f9817b 10%, #88211c 100%);
+background: -webkit-linear-gradient(top, #f9817b 10%, #88211c 100%);
+background: -o-linear-gradient(top, #f9817b 10%, #88211c 100%);
+background: linear-gradient(top, #f9817b 10%, #88211c 100%);
+cursor: pointer;
+}
+.posting .file_del {
+	border-top:solid 1px #b2b2b2;
+	padding:3px;
+}
+
+.list_posting form button {
+background:#fff;
+cursor:pointer;	
+}
+.list_posting tr {
+border-bottom:solid 1px green;	
+}
+.list_posting td {
+padding:10px 20px;
+}
+
+.posting .add_file input {
+	width:200px;
+}
+.posting .add_file .res_file {
+	width:16px;
+	height:16px;
+	background-size:contain;
+	background-image:url('/images/close_32.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	display:none;
+	cursor:pointer;
+	-display:inline-block;
+}

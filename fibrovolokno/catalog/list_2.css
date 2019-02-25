@@ -1,0 +1,965 @@
+.table_elo .elo {
+	width:218px;
+	height:330px;
+	box-sizing: border-box;
+	padding-top:170px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:0px;
+	display:inline-block;
+	margin-bottom:30px;
+	position:relative;
+	vertical-align:top;
+	border-radius:5px;
+}
+.table_elo .elo.def {
+	padding-bottom:0px;
+	background-color:#fff;
+}
+.table_elo .elo.add {
+	padding-bottom:255px;
+	background-color:#DDE5B6;
+}
+.table_elo .elo .img {
+	width:100%;
+	height:150px;
+	border-radius:5px;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+	position:absolute;
+	top:0px;
+	left:0px;
+	cursor:pointer;
+	z-index:3;
+}
+.table_elo .elo .name_before {
+	width:100%;
+	font-size:12px;
+	text-transform:uppercase;
+}
+.table_elo .elo .name {
+	width:100%;
+	margin-top:5px;
+	font-size:16px;
+	color:#16bfc0;
+	font-weight: bolder;
+	cursor:pointer;
+	text-shadow: none;
+	-webkit-transition: all 0.3s ease-out 0s;
+     -moz-transition: all 0.3s ease-out 0s;
+     -o-transition: all 0.3s ease-out 0s;
+     transition: all 0.3s ease-out 0s;
+}
+.table_elo .elo .name:hover {
+	text-shadow: 0px 0px 1px #03dbdb;
+	-webkit-transition: all 0.3s ease-out 0s;
+     -moz-transition: all 0.3s ease-out 0s;
+     -o-transition: all 0.3s ease-out 0s;
+     transition: all 0.3s ease-out 0s;
+}
+.table_elo .elo .size {
+	width:100%;
+	margin-top:5px;
+	font-size:12px;
+}
+.table_elo .elo .preview_text {
+	width:100%;
+	margin-top:10px;
+	font-size:12px;
+	color:#696969;
+}
+.table_elo .elo .price {
+	max-width:160px;
+	height:20px;
+	font-size:20px;
+	line-height:12px;
+	position:absolute;
+	left:10px;
+	bottom:0px;
+}
+
+.table_elo .elo .price .price_nt {
+	font-family: "NeoSansCyr-Light";
+	font-size:12px;
+}
+
+.table_elo .elo .price_packing {
+	max-width:160px;
+	height:20px;
+	margin-top:0px;
+	font-size:14px;
+	color:#727272;
+	position:absolute;
+	left:10px;
+	bottom:20px;
+}
+.table_elo .elo .price_packing .price_packing_nt {
+	font-family: "NeoSansCyr-Light";
+	font-size:9px;
+}
+.table_elo .elo .go_shop {
+	display:block;
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:280px;
+	right:0px;
+	box-sizing: border-box;
+	border:solid 2px #16bfc0;
+	border-radius:50%;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:25px;
+	
+	background-color: #fff;
+	
+	-webkit-transition: all 0.3s ease-out 0s;
+     -moz-transition: all 0.3s ease-out 0s;
+     -o-transition: all 0.3s ease-out 0s;
+     transition: all 0.3s ease-out 0s;
+	 z-index:2;
+}
+
+.table_elo .elo .go_shop.chek {
+	background-image: url('/fibrovolokno/images/chek.svg');
+}
+.table_elo .elo .go_shop.cart {
+	cursor:pointer;
+	background-image: url('/fibrovolokno/images/shopping-cart_g.svg');
+}
+.table_elo .elo .go_shop.cart:hover {
+	background-image: url('/fibrovolokno/images/shopping-cart_w.svg');
+	background-color: #16bfc0;
+	-webkit-transition: all 0.3s ease-out 0s;
+     -moz-transition: all 0.3s ease-out 0s;
+     -o-transition: all 0.3s ease-out 0s;
+     transition: all 0.3s ease-out 0s;
+}
+.table_elo .elo .in_stock {
+	position:absolute;
+	top:0px;
+	right:0px;
+	box-sizing: border-box;
+	padding:8px;
+	border-radius:0px 5px 0px 5px;
+	background-color: #ff0000;
+	color:#fff;
+	font-family: "NeoSansCyr-Light";
+	font-size:12px;
+	text-transform:uppercase;
+	z-index:4;
+}
+.table_elo .elo .detail_box {
+	clear:both;
+	position:absolute;
+	top:100%;
+	left:0px;
+	padding:110px 0px 60px;
+	display:none;
+}
+.table_elo .elo .detail_box .top_left {
+	float:left;
+}
+.table_elo .elo .detail_box .top_right {
+	float:right;
+}
+.table_elo .elo .detail_box .d_name_before {
+	font-size:14px;
+	text-transform:uppercase;
+}
+.table_elo .elo .detail_box .d_name {
+	margin-top:5px;
+	font-size:24px;
+	color:#16bfc0;
+	font-weight: bolder;
+	text-shadow: none;
+	-webkit-transition: all 0.3s ease-out 0s;
+     -moz-transition: all 0.3s ease-out 0s;
+     -o-transition: all 0.3s ease-out 0s;
+     transition: all 0.3s ease-out 0s;
+}
+
+.table_elo .elo .detail_box .d_name_after {
+	margin-top:5px;
+	font-size:14px;
+	color:#16bfc0;
+	text-transform:uppercase;
+}
+.table_elo .elo .detail_box .d_price {
+	display:inline-block;
+	font-size:50px;
+	vertical-align:middle;
+	margin-left:20px;
+}
+.table_elo .elo .detail_box .d_price .d_price_nt {
+	font-family: "NeoSansCyr-Light";
+	font-size:25px;
+}
+.table_elo .elo .detail_box .d_price_packing {
+	font-size:18px;
+	vertical-align:bottom;
+	margin-left:5px;
+	color:#727272;
+}
+.table_elo .elo .detail_box .d_price_packing .d_price_packing_nt {
+	font-family: "NeoSansCyr-Light";
+	font-size:12px;
+}
+
+.d_go_shop {
+	display:inline-block;
+	vertical-align:middle;
+	height:50px;
+	padding-left: 20px;
+	padding-right: 0px;
+	margin-left:20px;
+	font-size:20px;
+	color:#fff;
+	box-sizing: border-box;
+	border:solid 2px #16bfc0;
+	border-radius:25px;
+	background-color: #16bfc0;
+	cursor:pointer;
+	-webkit-transition: all 0.3s ease-out 0s;
+     -moz-transition: all 0.3s ease-out 0s;
+     -o-transition: all 0.3s ease-out 0s;
+     transition: all 0.3s ease-out 0s;
+}
+.d_go_shop div {
+	display:inline-block;
+	vertical-align:middle;
+	height:48px;
+	width:48px;
+	box-sizing: border-box;
+	border-radius:50%;
+	border:solid 2px #16bfc0;
+	background-repeat: no-repeat;
+	background-position:center ;
+	background-size:25px;
+	position:relative;
+	top:-1px;
+	right:-2px;
+}
+.d_go_shop div.cart {
+	background-color: #16bfc0;
+	background-image: url('/fibrovolokno/images/shopping-cart_w.svg');
+}
+.d_go_shop div.chek {
+	background-color: #fff;
+	background-image: url('/fibrovolokno/images/chek.svg');
+}
+.d_go_shop:hover {
+	color:#16bfc0;
+	background-color: #fff;
+	-webkit-transition: all 0.3s ease-out 0s;
+     -moz-transition: all 0.3s ease-out 0s;
+     -o-transition: all 0.3s ease-out 0s;
+     transition: all 0.3s ease-out 0s;
+}
+.table_elo .elo .detail_box .detail_text, .table_elo .elo .detail_box .features, .table_elo .elo .detail_box .form_application, .table_elo .elo .detail_box .bottom {
+	clear:both;
+	padding-top:50px;
+}
+
+.table_elo .elo .detail_box .d_tit {
+	font-size:14px;
+	color:#16bfc0;
+	text-transform:uppercase;
+	margin-bottom:5px;
+}
+
+.table_elo .elo .detail_box .bottom .logo {
+	width:130px;
+	height:45px;
+	float:right;
+	background-repeat: no-repeat;
+	background-position:bottom left;
+	box-sizing: border-box;
+}
+.table_elo .elo .detail_box .bottom .specification {
+	display:block;
+	height:45px;
+	float:right;
+	margin-left:25px;
+	padding-left:100px;
+	padding-top:10px;
+	background-image: url('/fibrovolokno/images/spec_ico.png');
+	background-repeat: no-repeat;
+	background-position:bottom left;
+	box-sizing: border-box;
+	font-size:16px;
+	color: #16bfc0;
+	text-shadow: none;
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease-out 0s;
+     -moz-transition: all 0.3s ease-out 0s;
+     -o-transition: all 0.3s ease-out 0s;
+     transition: all 0.3s ease-out 0s;
+}
+.table_elo .elo .detail_box .bottom .specification:hover {
+	text-shadow: 0px 0px 3px #03dbdb;
+	-webkit-transition: all 0.3s ease-out 0s;
+     -moz-transition: all 0.3s ease-out 0s;
+     -o-transition: all 0.3s ease-out 0s;
+     transition: all 0.3s ease-out 0s;
+}
+.table_elo .ad_unit {
+	width:218px;
+	height:330px;
+	box-sizing: border-box;
+	padding:0px;
+	display:inline-block;
+	margin-bottom:30px;
+	border-radius:5px;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+}
+
+.table_elo .elo .calc_el {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:218px;
+	height:95px;
+	box-sizing: border-box;
+	border-radius:0px 0px 5px 5px;
+	background-color:#DDE5B6;
+	padding:20px 5px 15px;
+	z-index:1;
+}
+.table_elo .none {
+	display:none;
+}
+.table_elo .block{
+	display:block;
+}
+.table_elo .elo .calc_el .prel {
+	font-size:25px;
+	text-align:center;
+}
+.table_elo .elo .calc_el .pren {
+	font-size:60%;
+	font-family: "NeoSansCyr-Light";
+}
+.table_elo .elo .calc_qty {
+	height:30px;
+	margin-top:8px;
+	display:flex;
+	justify-content:center;
+}
+.table_elo .elo .calc_qty div {
+	height:30px;
+	float:left;
+	box-sizing: border-box;
+}
+
+.table_elo .elo .calc_el .buq {
+	width:30px;
+	height:30px;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:60%;
+	background-color:#fff;
+	border:solid 2px #16bfc0;
+	border-radius:50%;
+	cursor:pointer;	
+}
+.table_elo .elo .calc_qty .buq:hover {
+	background-color:#def2f2;
+}
+.table_elo .elo .calc_qty .minus {
+	background-image: url('/fibrovolokno/images/minus.svg');
+}
+.table_elo .elo .calc_qty .plus {
+	background-image: url('/fibrovolokno/images/plus.svg');
+}
+.table_elo .elo .calc_el .del {
+	position:absolute;
+	top:-40px;
+	right:10px;
+	width:30px;
+	height:30px;
+	background-image: url('/fibrovolokno/images/del.svg');
+	z-index:1;
+}
+.table_elo .elo .calc_qty .qty_text {
+	padding:0px 8px;
+	text-align:center;	
+}
+.table_elo .elo .calc_qty .qty_text input {
+	width: 10px;
+	min-width: 10px;
+	max-width:100px;
+	height:100%;
+	font-size:19px;
+	line-height:30px;	
+	border:0;
+	background-color:#DDE5B6;
+	font-family: "NeoSansCyr-Regular";
+}
+.table_elo .elo .calc_qty .input_buf {
+    visibility: hidden;
+	display:none;
+    white-space: nowrap;
+	font-size:19px;
+	font-family: "NeoSansCyr-Regular";
+}
+.table_elo .elo .calc_qty .qty_text span {
+	font-size:19px;
+	font-family: "NeoSansCyr-Light";
+}
+
+
+/* Окно заказа */
+
+.mod_calc {
+	width:460px;
+	height:50px;
+	box-sizing: border-box;
+	vertical-align:top;
+	position:absolute;
+	top:0px;
+	right:0px;
+	border:solid 2px #16bfc0;
+	border-radius:25px;
+	background-color:#fff;
+	z-index:100;
+}
+.hidden {
+	visibility:hidden;
+}
+.visible {
+	visibility:visible;
+}
+.mod_calc .itogo {
+	width:156px;
+	height:48px;
+	font-size:25px;
+	line-height:48px;
+	box-sizing: border-box;
+	position:relative;
+	margin-left:25px;
+	padding-right:35px;
+	text-align:center;
+	overflow:hidden;
+}
+
+.mod_calc .itogo .rur {
+	-position:absolute;
+	width:18px;
+	height:48px;
+
+	text-align:center;
+	color:#000;
+	font-size:90%;
+	line-height:38px;
+	
+}
+.mod_calc .weight {
+	width:275px;
+	height:46px;
+	line-height:46px;
+	box-sizing: border-box;
+	border-radius:0px 23px 23px 0px;
+	background-color:#dfdfdf;
+	position:absolute;
+	top:0px;
+	right:0px;
+	font-size:25px;
+	text-align:center;
+	padding:0px 146px 0px 10px;
+	overflow:hidden;
+}
+.mod_calc .weight .weight_nt {
+	font-family: "NeoSansCyr-Light";
+}
+
+.mod_calc .d_go_shop {
+	position:absolute;
+	top:-2px;
+	right:-2px;
+
+}
+.mod_calc .sel {
+	display:block;
+	font-size:16px;
+	padding:3px 10px;
+	color:rgba(0,0,0,1);
+	box-sizing: border-box;
+	position:absolute;
+	top:50px;
+	left:20px;
+	text-decoration:none;
+	cursor:pointer;
+	background-color:#fff;
+	border-radius:3px;
+}
+.mod_calc .sel:hover {
+	text-shadow: 0 0 7px rgba(0,166,166,0.3);;
+}
+.mod_calc .sel.active {
+	text-shadow: 0 0 7px rgba(0,166,166,0.7);;
+}
+.mod_calc .sel sup{
+	font-size:60%;
+}
+.mod_calc .sel span {
+	font-size:80%;
+}
+.str_po {
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px; 
+	left:0px;
+	background-color:rgba(255,255,255,1);
+	z-index:100;
+	overflow:auto;
+	display:none;
+}
+.str_po .mod_po {
+	width:895px;
+	margin:40px auto;
+	background-color:rgba(255,255,255,1);
+	z-index:101;
+	box-sizing: border-box;
+	position:relative;
+}
+.str_po .mod_po .d_carry {
+	width:24px;
+	height:24px;
+	position:absolute;
+	top:8px;
+	right:8px;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-image: url('/fibrovolokno/images/close.svg');
+	cursor:pointer;
+}
+.str_po .mod_po .mod_form {
+	box-sizing: border-box;
+	width:100%;
+}
+.str_po .mod_po .mod_form .title_form{
+	color:#16bfc0;
+	font-size:20px;
+	margin-top:8px;
+}
+.str_po .mod_po .mod_form .col{
+	width:440px;
+	height:180px;
+	display:inline-block;
+}
+.str_po .mod_po .mod_form .col:last-child {
+	margin-left:5px;
+}
+.str_po .mod_po .mod_form .col input{
+	padding-right:35px;
+}
+.str_po .mod_po .mod_form .col input.galka_red{
+	background-position:right 10px center;
+	background-repeat:no-repeat;
+	background-image:url('/fibrovolokno/images/galka_red.png');
+}
+.str_po .mod_po .mod_form .col input.galka_green{
+	background-position:right 10px center;
+	background-repeat:no-repeat;
+	background-image:url('/fibrovolokno/images/galka_green.png');
+}
+.str_po .mod_po .mod_form .dibox_name  {
+	color:#9e9e9e;
+	height:20px;
+	margin-top:30px;
+	position:relative;
+	z-index:1;
+	font-family: 'NeoSansCyr-LIght';
+}
+.str_po .mod_po .mod_form .dibox_name.pos_i  {
+	font-size:20px;
+	top:25px;
+	transition: all 0.3s ease-out 0.3s;
+}
+.str_po .mod_po .mod_form .dibox_name.pos_a  {
+	font-size:14px;
+	top:0px;
+	transition: all 0.3s ease-out 0.1s;
+}
+.str_po .mod_po .mod_form .dibox_in {
+	border:0;
+	border-bottom:solid 1px #d8d8d8;
+	height:40px;
+	width:430px;
+	box-sizing:border-box;
+	font-size:20px;
+	z-index:2;
+	position:relative;
+	background-color:transparent;
+	
+}
+.str_po .mod_po .row {
+	margin:5px 0px;
+	box-sizing: border-box;
+	position:relative;
+}
+.str_po .mod_po .row input, .str_po .mod_po .row textarea {
+	width:100%;
+	box-sizing: border-box;
+	padding:3px 5px;
+	border-radius:5px;
+	border:solid 2px #16bfc0;
+	background-color:#fff;
+}
+.str_po .mod_po .row input {
+	height:26px;
+}
+.str_po .mod_po .row.addel {
+	height:52px;
+	border:solid 2px #16bfc0;
+	border-radius:5px;
+	overflow:hidden;
+}
+.str_po .mod_po .row input.product {
+	width:100%;
+	height:24px;
+	box-sizing: border-box;
+	padding:3px 5px;
+	border-radius:0px;
+	border:0;
+	background-color:#fff;
+}
+.str_po .mod_po .row input.qty {
+	width:50%;
+	height:24px;
+	float:left;
+	padding:4px 25px;
+	border-radius:0px;
+	border:0;
+	background-color:#16bfc0;
+	color:#fff;
+	box-sizing: border-box;
+	text-align:center;
+}
+.str_po .mod_po .row input.price {
+	width:50%;
+	height:24px;
+	float:left;
+	padding:4px 20px;
+	border-radius:0px;
+	border:0;
+	background-color:#16bfc0;
+	color:#fff;
+	box-sizing: border-box;
+	text-align:right;
+}
+.str_po .mod_po .row .buq {
+	position:absolute;
+	width:20px;
+	height:20px;
+	box-sizing: border-box;
+	border-radius:10px;
+	border:solid 1px #16bfc0;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:12px;
+	background-color:#fff;
+	cursor:pointer;
+}
+.str_po .mod_po .row .buq:hover {
+	background-color:#def2f2;
+}
+.str_po .mod_po .row .buq.del {
+	top:2px;
+	right:4px;
+	background-image: url('/fibrovolokno/images/del.svg');
+}
+.str_po .mod_po .row .buq.minus {
+	bottom:1px;
+	left:3px;
+	background-image: url('/fibrovolokno/images/minus.svg');
+}
+.str_po .mod_po .row .buq.plus {
+	bottom:1px;
+	left:85px;
+	background-image: url('/fibrovolokno/images/plus.svg');
+}
+.str_po .mod_po .row .buq.hid {
+	display:none;
+}
+.str_po .mod_po .row .drub {
+	position:absolute;
+	width:20px;
+	height:20px;
+	bottom:0px;
+	right:3px;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	line-height:16px;
+}
+
+
+.str_po .note_ok {
+	width:100%;
+	box-sizing: border-box;
+	padding:8px;
+	margin:100px 0px;
+	border-radius:5px;
+	background-color:#fff;
+	color:#16bfc0;
+	border:solid 2px #16bfc0;
+	font-size:16px;
+	line-height:24px;
+	text-align:center;
+	-display:none;
+
+}
+.str_po .mod_po button{
+	width:100%;
+	font-size:23px;
+	height:60px;
+	color:#fff;
+	box-sizing: border-box;
+	border:solid 2px #16bfc0;
+	border-radius:6px;
+	background-color: #16bfc0;
+	cursor:pointer;
+	-webkit-transition: all 0.3s ease-out 0s;
+     -moz-transition: all 0.3s ease-out 0s;
+     -o-transition: all 0.3s ease-out 0s;
+     transition: all 0.3s ease-out 0s;
+
+}
+.str_po .mod_po button:hover {
+	color:#16bfc0;
+	background-color: #fff;
+	-webkit-transition: all 0.3s ease-out 0s;
+     -moz-transition: all 0.3s ease-out 0s;
+     -o-transition: all 0.3s ease-out 0s;
+     transition: all 0.3s ease-out 0s;
+}
+
+
+
+.fs_ump {
+	font-size:80%;
+}
+.table_order {
+	margin-top:40px;
+}
+.table_order .head_table {
+	width:100%;
+	height:60px;
+	margin-bottom:20px;
+	padding:0px 20px;
+	clear:both;
+	font-size:18px;
+	line-height:100px;
+	text-align:right;
+	font-family: "NeoSansCyr-Light";
+}
+.table_order .head_table .logo {
+	width:200px;
+	height:100%;
+	box-sizing: border-box;
+	float:left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url('/fibrovolokno/images/propex_logo.png');
+}
+.table_order .head_table .tit_qty {
+	width:110px;
+	height:100%;
+	box-sizing: border-box;
+	float:right;
+	text-decoration: underline;
+}
+.table_order .head_table .tit_price {
+	width:155px;
+	height:100%;
+	box-sizing: border-box;
+	float:right;
+	text-decoration: underline;
+}
+.table_order .head_table .tit_sum {
+	width:215px;
+	height:100%;
+	box-sizing: border-box;
+	float:right;
+	text-decoration: underline;
+}
+.table_order .elem_table .orow {
+	width:100%;
+	height:90px;
+	margin-bottom:15px;
+	padding:0px 20px 5px 20px;
+	border-bottom:solid 1px #e5e5e5;
+	clear:both;
+}
+.table_order .elem_table .orow .img {
+	width:85px;
+	height:85px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float:left;
+	border-radius:5px;
+}
+.table_order .elem_table .orow .name_box {
+	width:285px;
+	height:85px;
+	padding-left:22px;
+	float:left;
+}
+.table_order .elem_table .orow .name_box .before {
+	font-size:18px;
+}
+.table_order .elem_table .orow .name_box .name_elem {
+	font-size:26px;
+	color:#16bfc0;
+	margin:5px 0px;
+}
+.table_order .elem_table .orow .name_box .size {
+	font-size:18px;
+}
+.table_order .elem_table .orow .qty {
+	width:110px;
+	height:85px;
+	float:right;
+	font-size:25px;
+	padding-top:20px;
+	text-align:right;
+	font-family: "NeoSansCyr-Light";
+}
+.table_order .elem_table .orow .price_box {
+	width:155px;
+	height:85px;
+	float:right;
+	text-align:right;
+}
+.table_order .elem_table .orow .price_box .price {
+	font-size:25px;
+	padding-top:15px;
+}
+.table_order .elem_table .orow .price_box .price .price_nt {
+	font-size:13px;
+}
+.table_order .elem_table .orow .price_box .price_packing {
+	font-size:16px;
+}
+.table_order .elem_table .orow .price_box .price_packing .price_packing_nt {
+	font-size:12px;
+}
+.table_order .elem_table .orow .sum_box {
+	width:215px;
+	height:85px;
+	float:right;
+	text-align:right;
+}
+.table_order .elem_table .orow .sum_box .sum {
+	font-size:25px;
+	padding-top:15px;
+}
+.table_order .elem_table .orow .sum_box .weight {
+	font-size:16px;
+	font-family: "NeoSansCyr-Light";
+}
+.table_order .elem_table .orow .sum_box .weight .weight_nt {
+	font-size:12px;
+}
+.table_order .foot_table {
+	width:100%;
+	height:110px;
+	box-sizing: border-box;
+	clear:both;
+	padding:30px 20px 0px;
+	position:relative;
+}
+.table_order .foot_table .div_capcha {
+	width:180px;
+	height:80px;
+	box-sizing: border-box;
+	border-radius:5px;
+	border:solid 2px #16bfc0;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.table_order .foot_table .div_capcha input{
+	width:176px;
+	height:38px;
+	float:left;
+	font-size:18px;
+	padding-left:5px;
+	box-sizing: border-box;
+	border-radius:0px 0px 5px 5px;
+	border:0;
+	border-top:solid 2px #16bfc0;
+	background-color:#fff;
+}
+.table_order .foot_table .div_capcha img{
+	width:176px;
+	height:38px;
+	float:left;
+	box-sizing: border-box;
+	border-radius:5px 5px 0px 0px;
+	/*background-color:#16bfc0;*/
+}
+#new_capcha {
+	width:30px;
+	height:30px;
+	background-color:#fff;
+	border-radius:15px;
+	box-sizing: border-box;
+	border:solid 2px #16bfc0;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-size: 18px;
+	background-position: center;
+	background-image: url('/fibrovolokno/images/loop2.svg');
+	position:absolute;
+	top:25px;
+	right:-15px;
+}
+#new_capcha:hover {
+	text-decoration:underline;
+}
+.icon-loop2:before {
+  content: "\ea2e";
+}
+.table_order .foot_table .tit_foot {
+	width:105px;
+	margin-left:180px;
+	font-size:26px;
+	box-sizing: border-box;
+	float:left;
+	text-align:right;
+	text-decoration: underline;
+}
+.table_order .foot_table .qty_itogo {
+	width:200px;
+	font-size:25px;
+	font-family: "NeoSansCyr-Light";
+	box-sizing: border-box;
+	float:left;
+	text-align:right;
+	text-decoration: underline;
+}
+.table_order .foot_table .box_price_itogo {
+	width:350px;
+	box-sizing: border-box;
+	float:right;
+	text-align:right;
+}
+.table_order .foot_table .box_price_itogo .price_itogo {
+	font-size:25px;
+	text-decoration: underline;
+}
+.table_order .foot_table .box_price_itogo .itogo_weight {
+	font-size:16px;
+	font-family: "NeoSansCyr-Light";
+}
+.table_order .foot_table .box_price_itogo .itogo_weight .weight_nt {
+	font-size:12px;
+}

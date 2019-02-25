@@ -1,0 +1,1 @@
+<?include $_SERVER["DOCUMENT_ROOT"]."/com/forma-registratsii/.left.menu_ext.php"?>

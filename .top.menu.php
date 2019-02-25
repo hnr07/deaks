@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Резюме", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Портфолио", 
+		"/portfolio/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Примеры", 
+		"/primery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Шпаргалка", 
+		"/help_bitrix/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Полезное", 
+		"/mod_i_kom/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

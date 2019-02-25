@@ -1,0 +1,26 @@
+.join_us {
+
+}
+.join_us li {
+	display:inline-block;
+	width:50px;
+	height:40px;
+}
+.join_us li .dico {
+	width:40px;
+	height:40px;
+	opacity: 1;
+	-webkit-transition:opacity 0.15s ease 0s;
+	-moz-transition:opacity 0.15s ease 0s;
+	-o-transition:opacity 0.15s ease 0s;
+	transition:opacity 0.15s ease 0s;
+}
+.join_us li .dico:hover {
+	width:40px;
+	height:40px;
+	opacity: 0.6;
+	-webkit-transition:opacity 0.3s ease 0s;
+	-moz-transition:opacity 0.3s ease 0s;
+	-o-transition:opacity 0.3s ease 0s;
+	transition:opacity 0.3s ease 0s;
+}

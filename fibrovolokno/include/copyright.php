@@ -1,0 +1,1 @@
+Copyright © 2017<?=(date("Y")==2017)?"":"-".date("Y")?> Fibrovolokno

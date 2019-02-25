@@ -1,0 +1,89 @@
+.rur {
+	display:inline-block;
+	font-family: "ALSRubl";
+}
+.dico {
+	display:inline-block;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.dico.dico_menu {
+	background-image:url('/images/menu.svg');
+}
+.dico.dico_menu_8 {
+	background-image:url('/images/menu_8.svg');
+	-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/menu_8.png',sizingMethod='scale');
+}
+.dico.dico_headset {
+	background-image:url('/images/headset.svg');
+}
+.dico.dico_headset_8 {
+	background-image:url('/images/headset_8.png');
+	-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/headset_8.png',sizingMethod='scale');
+}
+.dico.dico_check {
+	background-image:url('/images/check.svg');
+}
+.dico.dico_check_8 {
+	background-image:url('/images/check_8.svg');
+}
+.dico.dico_delivery-truck {
+	background-image:url('/images/delivery-truck.svg');
+}
+.dico.dico_delivery-truck_8 {
+	background-image:url('/images/delivery-truck_8.svg');
+}
+.dico.dico_reload {
+	background-image:url('/images/reload.svg');
+}
+.dico.dico_reload_8 {
+	background-image:url('/images/reload_8.svg');
+}
+.dico.dico_minus {
+	background-image:url('/images/minus.svg');
+}
+.dico.dico_minus_8 {
+	background-image:url('/images/minus_8.svg');
+}
+.dico.dico_plus {
+	background-image:url('/images/plus.svg');
+}
+.dico.dico_plus_8 {
+	background-image:url('/images/plus_8.svg');
+}
+.dico.dico_cross {
+	background-image:url('/images/cross.svg');
+}
+.dico.dico_cross_8 {
+	background-image:url('/images/cross_8.svg');
+}
+
+.dico.coloco_vk {
+	background-image:url('/images/vk_logo.svg');
+}
+.dico.coloco_fb {
+	background-image:url('/images/fb_logo.svg');
+}
+.dico.coloco_ok {
+	background-image:url('/images/ok_logo.svg');
+}
+.dico.coloco_yt {
+	background-image:url('/images/yt_logo.svg');
+}
+.dico.coloco_ig {
+	background-image:url('/images/ig_logo.svg');
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (-o-device-pixel-ratio: 3/2), 
+	only screen and (min-device-pixel-ratio: 1.5) {
+	.dico.dico_menu {
+		background-image:url('/images/menu.png');
+	}
+	.dico.dico_menu_8 {
+		background-image:url('/images/menu_8.png');
+	}
+}

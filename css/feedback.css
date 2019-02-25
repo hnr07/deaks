@@ -1,0 +1,42 @@
+.fb_form table td {
+	border:1px;
+}
+
+.fb_form input[type=text], .fb_form  textarea {
+	border:solid 1px #633993;
+	width:365px;
+	border-radius:4px;
+	padding:2px;
+}
+.fb_form .capcha {
+	width:185px;
+	height:100px;
+	float:left;
+}
+.fb_form .fb_but_sub {
+	width:185px;
+	height:100px;
+	float:left;
+}
+.fb_form .capcha input {
+	width:180px;
+	border-radius:0px 0px 4px 4px;
+}
+.fb_form .capcha img {
+	width:180px;
+	border-radius:4px 4px 0px 0px;
+}
+.fb_form input[type=submit] {
+	border:solid 1px #633993;
+	width:180px;
+	height:62px;
+	border-radius:4px;
+	color:#fff;
+	font-size:16pt;
+	background:#633993;
+	background-image: -moz-linear-gradient(top, #e2e2e2 0%, #633993 50%, #d1d1d1 51%, #fefefe 100%);
+    background-image: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+    background-image: -ms-linear-gradient(top, #9658dd 0%,#633993 100%);
+	background-image: -o-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+	background-image: linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+}

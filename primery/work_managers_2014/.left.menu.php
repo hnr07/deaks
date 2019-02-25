@@ -1,0 +1,33 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Примеры", 
+		"../index.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Опрос", 
+		"../work_managers_2014/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Результаты", 
+		"result_list.php?WEB_FORM_ID=6", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Статистика", 
+		"stat_view.php?WEB_FORM_ID=6", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	
+);
+?>

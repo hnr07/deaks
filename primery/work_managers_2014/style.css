@@ -1,0 +1,74 @@
+.tares {
+font-size:10pt;
+margin:20px 0px;
+border-collapse: collapse;
+}
+.tares td, .tares th{
+padding:5px;
+border-bottom:solid 1px #d0d0d0;
+}
+.tares .div_ant , .tares .div_reg {
+height:20px;
+margin:5px;
+}
+.tares .div_ant{
+width:200px;
+}
+.tares .div_reg {
+width:510px;
+border-bottom:solid 1px #b2b2b2;
+
+}
+.tares .reg_1{
+background-color:#6ca424;
+background: -moz-linear-gradient(top, #c1e97c 0%, #6ca424 50%);
+background: -webkit-linear-gradient(top, #c1e97c 0%, #6ca424 50%);
+background: -o-linear-gradient(top, #c1e97c 0%, #6ca424 50%);
+background: linear-gradient(top, #c1e97c 0%, #6ca424 50%);
+border-color:#c1e97c;
+}
+.tares .reg_2{
+background-color:#d8d62f;
+background: -moz-linear-gradient(top, #f0f0cc 0%, #d8d62f 50%);
+background: -webkit-linear-gradient(top, #f0f0cc 0%, #d8d62f 50%);
+background: -o-linear-gradient(top, #f0f0cc 0%, #d8d62f 50%);
+background: linear-gradient(top, #f0f0cc 0%, #d8d62f 50%);
+border-color:#f0f0cc;
+}
+.tares .reg_3{
+background-color:#e32367;
+background: -moz-linear-gradient(top, #f0b8cc 0%, #e32367 50%);
+background: -webkit-linear-gradient(top, #f0b8cc0%, #e32367 50%);
+background: -o-linear-gradient(top, #f0b8cc 0%, #e32367 50%);
+background: linear-gradient(top, #f0b8cc 0%, #e32367 50%);
+border-color:#f0b8cc ;
+}
+
+.tares .ch_res {
+width:100px;
+float:right;
+
+}
+.tares .grf {
+float:left;
+height:20px;
+border-radius:0px 15px 0px 0px;
+border-style: solid;
+border-width:1px 1px 0px;
+}
+.tiraz .tiraz_t{
+float:right;
+width:600px;
+}
+.tiraz .tiraz_a{
+float:right;
+width:200px;
+}
+.tiraz .tiraz_p{
+float:right;
+width:200px;
+}
+
+a:hover {
+text-decoration:underline;
+}

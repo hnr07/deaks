@@ -1,0 +1,17 @@
+.text-detail a {
+	color:#623790;
+	text-decoration:none;
+	text-shadow: none;
+}
+.text-detail a:hover {
+	color:rgba(98, 55, 144, 0.7);
+}
+.text-detail a span {
+	color:#fff;
+	transition: all 0.3s ease-out 0s;
+}
+.text-detail a:hover span {
+	color:rgba(98, 55, 144, 0.7);
+	transition: all 0.3s ease-out 0s;
+}
+

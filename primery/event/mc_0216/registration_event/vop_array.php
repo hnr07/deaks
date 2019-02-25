@@ -1,0 +1,1 @@
+<?include $_SERVER["DOCUMENT_ROOT"]."/com/registration_event/vop_array.php";?>

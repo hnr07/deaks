@@ -1,0 +1,43 @@
+/* Sale paysystem */
+
+.sale-paysystem-wrapper {
+	position: relative;
+	color: #888;
+	text-align:center;
+}
+.sale-paysystem-wrapper .tesum {
+	color: #008080;
+	font-size: 24px;
+}
+.sale-paysystem-description {
+	margin: 0 0 11px 0;
+	font: 11px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	color: #bcbdc0;
+}
+
+.sale-paysystem-yandex-button {
+	display: inline-block;
+	margin: 5px;
+}
+
+.sale-paysystem-yandex-button-item {
+	height: 48px;
+	width:220px;
+	border: solid 2px #008080;
+	background-color: #008080;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 40px;
+	font-size: 24px;
+	text-align: center;
+	color: #fff;
+	cursor:pointer;
+	-webkit-transition: background .3s ease;
+	-moz-transition: background .3s ease;
+	transition: background .3s ease;
+}
+
+.sale-paysystem-yandex-button-item:hover {
+	background: #fff;
+	color:#008080;
+}

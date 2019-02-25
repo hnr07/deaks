@@ -1,0 +1,16 @@
+.text-list a {
+	color:#623790;
+	text-decoration:none;
+	text-shadow: none;
+}
+.text-list a:hover {
+	color:rgba(98, 55, 144, 0.7);
+}
+.text-list a span {
+	color:#fff;
+	transition: all 0.3s ease-out 0s;
+}
+.text-list a:hover span {
+	color:rgba(98, 55, 144, 0.7);
+	transition: all 0.3s ease-out 0s;
+}

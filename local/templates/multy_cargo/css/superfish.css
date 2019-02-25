@@ -1,0 +1,67 @@
+.sf-menu {position:absolute; top:0px; left:0px; width:918px; height:49px; margin:0; padding:0 0 0 21px; z-index:3; background:url(../images/nav-tail.gif) 0 0 repeat-x;}
+.sf-menu > li {float:left; margin:0 9px 0 0; position:relative;}
+.sf-menu > li > a {
+    display:block;
+    font-size:18px;
+    line-height:49px;
+    color:#989898;
+    padding:0 8px 0 10px;
+    margin:0;
+    text-transform:uppercase;
+    text-decoration:none;
+    position:relative;
+}
+.sf-menu li a:hover, .sf-menu li.sfHover a, .sf-menu li a.current {background:url(../images/menu-hover.jpg) 0 0 repeat-x; color:#fff;}
+
+/***********************submenu***********************/
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+    display:none;
+    position:absolute;
+    left:0;
+    top:49px;
+    width:145px;
+    padding:1px;
+    z-index:200;
+    background:#383838;
+    z-index:99;
+}
+.sf-menu ul li {width:100%; margin:0 0 1px 0; position:relative;}
+.sf-menu ul li.last-item {margin:0;}
+.sf-menu li:hover li a, .sf-menu li.sfHover li a {
+    display:block;
+    font-size:18px;
+    line-height:28px;
+    color:#fff;
+    padding:0 0 0 6px;
+    text-transform:uppercase;
+    text-decoration:none;
+    background:none;
+}
+.sf-menu li li a:hover, .sf-menu li li.sfHover a {background:#ffb403;}
+
+/***********************submenu2***********************/
+/*ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {left:145px; top:0px;}*/
+/*.sf-menu li li.sfHover li a {*/
+/*display:block;*/
+/*font-size:14px;*/
+/*line-height:34px;*/
+/*color:#000;*/
+/*font-weight:400;*/
+/*text-decoration:none;*/
+/*position:relative;*/
+/*background:url(../images/submenu-left.png) left 0 no-repeat;*/
+/*}*/
+/*.sf-menu li li.sfHover li a strong {display:inline-block; font-weight:400; padding:0 11px; background:url(../images/submenu-right.png) right 0 no-repeat;}*/
+/*.sf-menu li li.sfHover li a strong strong {padding:0 0 1px 8px; width:114px; background:url(../images/submenu-tail.png) 0 0 repeat-x; cursor:pointer;}*/
+/*.sf-menu li li.sfHover li a:hover {background:url(../images/submenu-left.png) 0 bottom no-repeat; color:#fff;}*/
+/*.sf-menu li li.sfHover li a:hover strong {background:url(../images/submenu-right.png) right bottom no-repeat;}*/
+/*.sf-menu li li.sfHover li a:hover strong strong {background:url(../images/submenu-tail.png) 0 bottom repeat-x;}*/
+
+/*.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {outline:0;}*/
+
+
+/*************************  STANDARD ******************************/
+/*.sf-menu ul> li > a {*/
+/*font-size: 18px;*/
+/*color: #fff;*/
+/*}*/

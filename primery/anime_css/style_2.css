@@ -1,0 +1,232 @@
+.box_button_2 {
+	max-width:1250px;
+	text-align:center;
+	margin:auto;
+	position:relative;
+	
+}
+
+
+.box_button_2 .but_form {
+	width:156px;
+	height:106px;
+	display:inline-block;
+	vertical-align:top;
+	position:relative;
+	margin:10px 0px 0px 200px;
+	cursor:pointer;
+	background-color:#fff;
+	box-sizing: border-box;
+	border-radius:6px; 
+	border:solid 1px #d0d0d0;
+	color:#231f20;
+	text-align:center;
+	
+}
+.box_button_2 .but_form .filter_img {
+	
+	width:154px;
+	height:104px;
+	display:inline-block;
+	margin:0px;
+	padding:10px 20px;
+	position:relative;
+	box-sizing: border-box;
+	border-radius:6px;
+	background-size:contain;
+	background:linear-gradient(to top right, #fccf2e, #feeb3d, #fccf2e);
+	border:solid 5px #fff;
+	z-index:10;
+}
+
+
+.box_button_2 .but_form .tit {
+	font-size:20pt;
+	margin-top:10px;
+}
+.box_button_2 .but_form .not {
+	font-size:14pt;
+}
+
+.box_button_2 .but_form .krilo_start {
+	width:0px;
+	height:0px;
+	position:absolute;
+	top:10px;
+	z-index:7;
+}
+
+.box_button_2 .but_form .krilo_start.krilo_left_start {
+	left:-120px;
+	background:url('images/krilo_left.png') center no-repeat;
+	background-size:contain;
+	transform-origin:146px 30px;
+	width:146px;
+	height:104px;
+	transform:scale(0, 0.5);
+	transition: transform 1s ease-out 0.2s;
+}
+.box_button_2 .but_form .krilo_start.krilo_left_start.left_toup {
+	animation: elemlentlefttoup 2s 1 ease-in-out;
+	
+}
+ @keyframes elemlentlefttoup {
+  0% {transform:scale(0, 0.5);}
+  100%{transform:scale(1, 1);}
+ }
+.box_button_2 .but_form .krilo {
+	position:absolute;
+	top:10px;
+	z-index:7;
+}
+ .box_button_2 .but_form .krilo.krilo_left {
+	left:-120px;
+	background:url('images/krilo_left.png') center no-repeat;
+	background-size:contain;
+	transform-origin:146px 30px;
+	width:146px;
+	height:104px;
+	transform:rotate(0deg);
+	transition: transform 1s ease-out 0.2s;
+	-display:none;
+	visibility:hidden;
+}
+ .box_button_2 .but_form:hover .krilo.krilo_left {
+	transform:rotate(50deg);
+	transition: transform 1s ease-out 2s;
+}
+ .box_button_2 .but_form:hover .krilo.krilo_left.akt {
+	transition: transform 1s ease-out 0.2s;
+}
+
+.box_button_2 .but_form .krilo_start.krilo_right_start {
+	right:-120px;
+	background:url('images/krilo_right.png') center no-repeat;
+	background-size:contain;
+	transform-origin:0px 30px;
+	width:146px;
+	height:104px;
+	transform:scale(0, 0.5);
+	transition: transform 1s ease-out 0.2s;
+}
+.box_button_2 .but_form .krilo_start.krilo_right_start.right_toup {
+	animation: elemlentrighttoup 2s 1 ease-in-out;
+	
+}
+ @keyframes elemlentrighttoup {
+  0% {transform:scale(0, 0.5);}
+  100%{transform:scale(1, 1);}
+ }
+
+ .box_button_2 .but_form .krilo.krilo_right {
+	right:-120px;
+	background:url('images/krilo_right.png') center no-repeat;
+	background-size:contain;
+	transform-origin:0px 30px;
+	width:146px;
+	height:104px;
+	transform:rotate(0deg);
+	transition: transform 1s ease-out 0.2s;
+	-display:none;
+	visibility:hidden;
+}
+ .box_button_2 .but_form:hover .krilo.krilo_right {
+	transform:rotate(-50deg);
+	transition: transform 1s ease-out 2s;
+}
+ .box_button_2 .but_form:hover .krilo.krilo_right.akt {
+	transition: transform 1s ease-out 0.2s;
+}
+
+.box_button_2 .but_form .box_korona {
+	width:86px;
+	height:50px;
+	position:absolute;
+	top:0px;
+	left:35px;
+	transition: top 1s ease-out 0s;
+	z-index:7;
+}
+.box_button_2 .but_form .korona {
+	width:86px;
+	height:50px;
+	background:url('images/korona.png') center no-repeat;
+	position:absolute;
+	top:0px;
+	left:0px;
+	transition: top 1s ease-out 0s;
+	z-index:7;
+	
+}
+.box_button_2 .but_form:hover .box_korona  {
+	top:-62px;
+	transition: top 1s ease-out 0.3s;
+
+}
+.swing {
+		animation: swing 1.5s infinite linear;
+}
+
+@keyframes swing {
+	  0% {
+		transform: translateX(0px);
+	  }
+	   13% {
+		transform: translateX(5px);
+	  }
+	  26% {
+		transform: translateX(8px);
+	  }
+	   38% {
+		transform: translateX(5px);
+	  }
+	  50% {
+		transform: translateX(0px); 
+	  }
+	   62% {
+		transform: translateX(-5px);
+	  }
+	 75% {
+		transform: translateX(-8px);
+	  }
+	87% {
+		transform: translateX(-5px);
+	  }
+	  100% {
+		transform: translateX(0px);
+	  }
+
+}
+
+.rotate {
+		animation: rotate 1.5s infinite linear;
+}
+@keyframes rotate {
+	  0% {
+		transform: rotate(0deg); 
+	  }
+	   13% {
+		transform: rotate(1deg);
+	  }
+	  26% {
+		transform: rotate(2deg);
+	  }
+	   38% {
+		transform: rotate(1deg);
+	  }
+	  50% {
+		transform: rotate(0deg); 
+	  }
+	   62% {
+		transform: rotate(-1deg);
+	  }
+	 75% {
+		transform: rotate(-2deg);
+	  }
+	87% {
+		transform: rotate(-1deg);
+	  }
+	  100% {
+		transform: rotate(0deg);
+	  }
+}

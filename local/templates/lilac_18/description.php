@@ -1,0 +1,1 @@
+<?$arTemplate = Array("NAME" => "ДеАкс", "DESCRIPTION" => "Вариант январь 2018");?>

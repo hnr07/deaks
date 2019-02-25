@@ -1,0 +1,93 @@
+.rur {
+	display:inline-block;
+	font-family: "ALSRubl";
+}
+.dico {
+	display:inline-block;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.dico.dico_menu {
+	background-image:url('/images/shipment/menu.svg');
+}
+.dico.dico_menu_8 {
+	background-image:url('/images/shipment/menu_8.svg');
+}
+.dico.dico_headset {
+	background-image:url('/images/shipment/headset.svg');
+}
+.dico.dico_headset_8 {
+	background-image:url('/images/shipment/headset_8.png');
+}
+.dico.dico_check {
+	background-image:url('/images/shipment/check.svg');
+}
+.dico.dico_check_8 {
+	background-image:url('/images/shipment/check_8.svg');
+}
+.dico.dico_delivery-truck {
+	background-image:url('/images/shipment/delivery-truck.svg');
+}
+.dico.dico_delivery-truck_8 {
+	background-image:url('/images/shipment/delivery-truck_8.svg');
+}
+.dico.dico_reload {
+	background-image:url('/images/shipment/reload.svg');
+}
+.dico.dico_reload_8 {
+	background-image:url('/images/shipment/reload_8.svg');
+}
+.dico.dico_minus {
+	background-image:url('/images/shipment/minus.svg');
+}
+.dico.dico_minus_8 {
+	background-image:url('/images/shipment/minus_8.svg');
+}
+.dico.dico_plus {
+	background-image:url('/images/shipment/plus.svg');
+}
+.dico.dico_plus_8 {
+	background-image:url('/images/shipment/plus_8.svg');
+}
+.dico.dico_cross {
+	background-image:url('/images/shipment/cross.svg');
+}
+.dico.dico_cross_8 {
+	background-image:url('/images/shipment/cross_8.svg');
+}
+.dico.dico_small-up {
+	background-image:url('/images/shipment/small-up.svg');
+}
+.dico.dico_small-up_8 {
+	background-image:url('/images/shipment/small-up_8.svg');
+}
+
+.dico.coloco_vk {
+	background-image:url('/images/shipment/vk_logo.svg');
+}
+.dico.coloco_fb {
+	background-image:url('/images/shipment/fb_logo.svg');
+}
+.dico.coloco_ok {
+	background-image:url('/images/shipment/ok_logo.svg');
+}
+.dico.coloco_yt {
+	background-image:url('/images/shipment/yt_logo.svg');
+}
+.dico.coloco_ig {
+	background-image:url('/images/shipment/ig_logo.svg');
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (-o-device-pixel-ratio: 3/2), 
+	only screen and (min-device-pixel-ratio: 1.5) {
+	.dico.dico_menu {
+		background-image:url('images/menu.png');
+	}
+	.dico.dico_menu_8 {
+		background-image:url('images/menu_8.png');
+	}
+}

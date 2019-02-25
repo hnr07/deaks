@@ -1,0 +1,66 @@
+.div_form {
+width:800px;
+background-color:#fff;
+padding:20px;
+-moz-box-shadow:0px 0px 10px #000;
+	-webkit-box-shadow:0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+	margin:auto;
+}
+.nevid, .div_hidden, #garant_div{
+	display:none;
+}
+.zred {
+color:red;
+}
+.ti_blo, .ti_blos{
+border-top:solid 1px #d9d9d9;
+margin-top:10px;
+padding:5px;
+clear:both;
+height:25px;
+---border:solid 1px red;
+}
+.ti_blo .tiqa, .ti_blos .tiqa {
+float:left;
+width:300px;
+
+}
+.ti_blo .odi, .ti_blos .odi {
+float:left;
+width:700px;
+
+}
+.ti_blo  .sel_m  {
+float:left;
+width:150px;
+}
+input[type=text], select {
+border:solid 1px #b2b2b2;
+}
+
+.zkl_b{
+border-bottom: solid 1px #c4c4c4;
+}
+.zkl_t {
+background: #e9e7e7 url(/images/registration_event/arrow-square.gif) no-repeat right -45px;
+padding: 7px 15px;
+	margin: 0;
+	border: solid 1px #c4c4c4;
+	border-bottom: none;
+	cursor: pointer;
+}
+.zkl_t:hover {
+background-color: #e3e2e2;
+}
+.active {
+	background-position: right 11px;
+}
+.zkl_d {
+
+	margin: 0;
+	padding: 10px;
+	border-left: solid 1px #c4c4c4;
+	border-right: solid 1px #c4c4c4;
+	display: none;
+}

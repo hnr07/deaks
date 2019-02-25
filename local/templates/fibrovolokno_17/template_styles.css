@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "NeoSansCyr-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/NeoSansCyr-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/NeoSansCyr-Regular.woff") format("woff"), url("/fonts/NeoSansCyr-Regular.ttf") format("truetype"), url("/fonts/NeoSansCyr-Regular.svg#NeoSansCyr-Regular") format("svg");
+}
+@font-face {
+  font-family: 'ALSRubl';
+  src:  url('/fonts/ALSRubl.eot?#iefix') format('embedded-opentype'),  
+      url('/fonts/ALSRubl.otf')  format('opentype'),
+      url('/fonts/ALSRubl.woff') format('woff'), 
+    url('/fonts/ALSRubl.ttf')  format('truetype'), 
+    url('/fonts/ALSRubl.svg#ALSRubl') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NeoSansCyr-LIght';
+  src: url('/fonts/NeoSansCyr-LIght.woff') format('woff'),
+       url('/fonts/NeoSansCyr-LIght.ttf') format('truetype'),
+       url('/fonts//fonts/NeoSansCyr-LIght.svg#NeoSansCyr-LIght') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeoSansCyr-Light';
+  src: url('/fonts/NeoSansCyr-Light.eot');
+  src: url('/fonts/NeoSansCyr-Light.woff2') format('woff2'),
+       url('/fonts/NeoSansCyr-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+html{-webkit-text-size-adjust:none}
+
+html { width:100%; height: 100%; }
+
+body{
+	margin:0;
+	padding:0;
+	font-family: "NeoSansCyr-Regular",arial;
+}
+body div {
+ box-sizing: border-box;
+}
+.page-wrapper
+{	
+	min-height:100%;		
+}
+
+* html .page-wrapper { height: 100%; }
+
+.header { height: auto; position: relative; z-index: 10; width:100%; margin:0 auto;overflow:hidden;box-sizing: border-box;}
+
+.content {
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+.footer { 
+	height: 535px; 
+	width:100%; 
+	margin:0 auto;  
+	position: relative;
+}
+.footer .footer_map { 
+	height: 445px; 
+	width:100%; 
+	margin:0 auto;  
+	position: relative;
+}
+.footer .footer_bottom { 
+	height: 90px; 
+	width:80%; 
+	margin:0 auto;  
+	position: relative;
+}
+.footer .footer_bottom .copyright { 
+	height: 90px; 
+	width:300px; 
+	float:left;
+	font-size:14px;
+	color:#222;
+	line-height:90px;
+}
+.footer .footer_bottom .soc_set { 
+	height: 90px; 
+	width:300px; 
+	float:right;
+	margin-right:300px;
+}
+.footer .footer_bottom .soc_set .ico { 
+display:inline-block;
+	height: 38px; 
+	width:38px; 
+	margin-left:10px;
+	margin-top:26px;
+	box-sizing: border-box;
+	background-image: url('/fibrovolokno/images/soc_set/fb.png');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+.footer .footer_bottom .soc_set .ico.fb { 
+	background-image: url('/fibrovolokno/images/soc_set/fb.png');
+}
+.footer .footer_bottom .soc_set .ico.inst { 
+	background-image: url('/fibrovolokno/images/soc_set/inst.png');
+}
+.footer .footer_bottom .soc_set .ico.ok { 
+	background-image: url('/fibrovolokno/images/soc_set/ok.png');
+}
+.footer .footer_bottom .soc_set .ico.vk { 
+	background-image: url('/fibrovolokno/images/soc_set/vk.png');
+}
+.footer .footer_bottom .soc_set .ico.ytube { 
+	background-image: url('/fibrovolokno/images/soc_set/ytube.png');
+}
+.both {
+	width:100%;
+	clear:both;
+}
