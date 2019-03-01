@@ -1,14 +1,14 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
-<?$_REQUEST["ELEMENT_ID"]=34084;?>
+<?$_REQUEST["ELEMENT_ID"]=5213;?>
 <?$APPLICATION->SetTitle("компонент");$APPLICATION->SetTitle("");?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:catalog.element", 
+	"deaks-soft:catalog.element", 
 	".default", 
 	array(
 		"ACTION_VARIABLE" => "action",
 		"ADD_DETAIL_TO_SLIDER" => "N",
 		"ADD_ELEMENT_CHAIN" => "N",
-		"ADD_PICT_PROP" => "MORE_PHOTO",
+		"ADD_PICT_PROP" => "-",
 		"ADD_PROPERTIES_TO_BASKET" => "Y",
 		"ADD_SECTIONS_CHAIN" => "Y",
 		"ADD_TO_BASKET_ACTION" => array(
@@ -51,7 +51,7 @@
 		"GIFTS_SHOW_NAME" => "Y",
 		"GIFTS_SHOW_OLD_PRICE" => "Y",
 		"HIDE_NOT_AVAILABLE_OFFERS" => "N",
-		"IBLOCK_ID" => "46",
+		"IBLOCK_ID" => "16",
 		"IBLOCK_TYPE" => "catalog",
 		"IMAGE_RESOLUTION" => "16by9",
 		"LABEL_PROP" => array(
@@ -63,7 +63,6 @@
 		"MAIN_BLOCK_OFFERS_PROPERTY_CODE" => array(
 		),
 		"MAIN_BLOCK_PROPERTY_CODE" => array(
-			0 => "VIDEO",
 		),
 		"MESSAGE_404" => "",
 		"MESS_BTN_ADD_TO_BASKET" => "В корзину",
@@ -76,8 +75,7 @@
 		"MESS_PROPERTIES_TAB" => "Характеристики",
 		"META_DESCRIPTION" => "-",
 		"META_KEYWORDS" => "-",
-		"OFFERS_CART_PROPERTIES" => array(
-		),
+		"OFFERS_CART_PROPERTIES" => "",
 		"OFFERS_FIELD_CODE" => array(
 			0 => "",
 			1 => "",
@@ -92,8 +90,7 @@
 		"OFFERS_SORT_ORDER" => "asc",
 		"OFFERS_SORT_ORDER2" => "desc",
 		"OFFER_ADD_PICT_PROP" => "-",
-		"OFFER_TREE_PROPS" => array(
-		),
+		"OFFER_TREE_PROPS" => "",
 		"PARTIAL_PRODUCT_PROPERTIES" => "N",
 		"PRICE_CODE" => array(
 		),
@@ -108,22 +105,23 @@
 		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
 		"PRODUCT_SUBSCRIPTION" => "Y",
 		"PROPERTY_CODE" => array(
-			0 => "scope_application",
-			1 => "NEWPRODUCT",
-			2 => "SHOW_ON_HOMEPAGE",
-			3 => "COUNTRY",
-			4 => "SALELEADER",
-			5 => "DISCOUNT",
-			6 => "TIME_BUY",
-			7 => "NOT_FORGET_BUY",
-			8 => "ARTNUMBER",
-			9 => "MANUFACTURER",
-			10 => "MANUFACTURER_SITE",
-			11 => "obyem",
-			12 => "DELIVERY",
-			13 => "GIFT",
-			14 => "VIDEO",
-			15 => "",
+			0 => "",
+			1 => "scope_application",
+			2 => "NEWPRODUCT",
+			3 => "SHOW_ON_HOMEPAGE",
+			4 => "COUNTRY",
+			5 => "SALELEADER",
+			6 => "DISCOUNT",
+			7 => "TIME_BUY",
+			8 => "NOT_FORGET_BUY",
+			9 => "ARTNUMBER",
+			10 => "MANUFACTURER",
+			11 => "MANUFACTURER_SITE",
+			12 => "obyem",
+			13 => "DELIVERY",
+			14 => "GIFT",
+			15 => "VIDEO",
+			16 => "",
 		),
 		"SECTION_CODE" => "",
 		"SECTION_ID" => $_REQUEST["SECTION_ID"],

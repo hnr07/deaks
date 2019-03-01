@@ -21,6 +21,13 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
+	Array(
+		"Специальные символы HTML", 
+		"/code_html/", 
+		Array(), 
+		Array(), 
+		"" 
+	),	
 	/*
 	Array(
 		"JavaScript", 
@@ -37,6 +44,12 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
-
+	Array(
+		"Многосайтовость bitrix", 
+		"/multisite/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
 );
 ?>
