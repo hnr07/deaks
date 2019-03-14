@@ -59,50 +59,52 @@ $APPLICATION->SetTitle("OOP");
 
 
 class User {
-	// public $name="ИМЯ";
-	// public $password="Пароль";
-	// public $email="email";
-	// public $city="Город";
-	private static $name;
+	public $name="ИМЯ";
+	public $password="Пароль";
+	public $email="email";
+	public $city="Город";
+	private static $name2;
 	public static function setName($name1)
 	{
-		self::$name=$name1;
+		self::$name2=$name1;
 	}
 	public static function getName ()
 	{
-		return self::$name;
+		return self::$name2;
 	}
-	// function __construct($name, $password, $email, $city) {
-		// $this->name=$name;
-		// $this->password=$password;
-		// $this->email=$email;
-		// $this->city=$city;
-	// }
+	function __construct($name, $password, $email, $city) {
+		$this->name=$name;
+		$this->password=$password;
+		$this->email=$email;
+		$this->city=$city;
+	}
 	// public function getName() {
 		// echo $this->name;
 		// $this->test();
 	// }
-	// public function test() {
-		// echo "test";
-	// }
-	// public function getInfo() {
-		// return "{$this->name}"."{$this->password}"."{$this->email}"."{$this->city}";
-	// }
+	public function test() {
+		echo "test";
+	}
+	public function getInfo() {
+		$information= "{$this->name}"."{$this->password}"."{$this->email}"."{$this->city}";
+		return $information;
+	}
 	
-	// public function Hello() {
-		// echo "<br />Hello {$this->name}";
-	// }
+	public function Hello() {
+		echo "<br />Hello {$this->name}";
+	}
+	
 	
 }
 
 
-// $admin=new User();
-// echo $admin->name;
-// $admin -> surname="yyyyyyyyyyyy";
-// echo $admin->surname;
-// $admin->Hello();
+$admin=new User();
+echo $admin->name;
+$admin -> surname="yyyyyyyyyyyy";
+echo $admin->surname;
 
- // $user1=new User("Ivan","123456", "mail@mail.ru", "Perm");
+
+  $user1=new User("Ivan ","123456 ", "mail@mail.ru ", "Perm ");
 
  // $user1->getName();
  
@@ -115,8 +117,19 @@ class User {
   echo User::getName();
 //var_dump($user1);
 // echo "<pre>";print_r($user1);echo "</pre>";
-// echo $user1->getInfo();
+ echo $user1->getInfo();
 
+
+class Moderator extends User {
+	public $info;
+	public $rights;	
+	
+	
+	
+}
+
+$moder= new Moderator("Andre ","555555 ", "moder@mail.ru ", "Rostov ");
+echo $moder->getInfo();
 
 // class Des {
 	// function __construct()

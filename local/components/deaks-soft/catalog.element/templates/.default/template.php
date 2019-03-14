@@ -2,7 +2,7 @@
 
 use \Bitrix\Main\Localization\Loc;
 ?>
-aaaaaaaaaaaa
+
 <?
 
 

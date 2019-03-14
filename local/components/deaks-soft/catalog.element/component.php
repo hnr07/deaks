@@ -134,7 +134,7 @@ $arResult["DISPLAY_PROPERTIES"] = array();
 						$arResult["DISPLAY_PROPERTIES"][$pid] = CIBlockFormatProperties::GetDisplayValue($arResult, $arResult[PROPERTIES][PHOTO][$pid], "catalog_out");
 					//}
 					//unset($prop);
-					echo ">><pre>"; print_r($arResult[PROPERTIES][PHOTO][$pid]); echo "</pre>";
+					//echo ">><pre>"; print_r($arResult[PROPERTIES][PHOTO][$pid]); echo "</pre>";
 				}
 				unset($pid);
 			}
