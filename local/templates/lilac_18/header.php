@@ -1,6 +1,17 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 IncludeTemplateLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/templates/".SITE_TEMPLATE_ID."/header.php");
+$APPLICATION->IncludeComponent("bitrix:main.include", "", array("AREA_FILE_SHOW" => "file", "PATH" => SITE_DIR."/local/php_interface/classes/Mobile-Detect/Mobile_Detect.php"), false);
 
+$detect = new Mobile_Detect; 
+$deviceType = ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'phone') : 'computer');
+//echo $deviceType;
+if ($deviceType == 'phone'){
+	$ss="?";
+	if(strpos($APPLICATION->GetCurPageParam(),"?")) $ss="&";
+
+	LocalRedirect($APPLICATION->GetCurPageParam().$ss."type=pda");
+	exit();
+} 
 ?><!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?=LANGUAGE_ID?>" lang="<?=LANGUAGE_ID?>" xmlns:og="http://ogp.me/ns#">
 <head>

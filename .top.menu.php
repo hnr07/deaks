@@ -5,7 +5,7 @@ $aMenuLinks = Array(
 		"/about/", 
 		Array(), 
 		Array(), 
-		"" 
+		"false" 
 	),
 	Array(
 		"Портфолио", 

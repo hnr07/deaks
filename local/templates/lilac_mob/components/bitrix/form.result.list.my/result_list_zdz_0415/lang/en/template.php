@@ -1,0 +1,22 @@
+<?
+$MESS['GER_TIT_2'] = "<b>>>>Это пример. Проверка отключена.<<<</b><br />Participation eligibility verification.";
+$MESS['FRLM_NO_RESULTS'] = "You did not send any requests.";
+$MESS['FRLM_MORE_RESULTS'] = "all requests of this type";
+$MESS['FRLM_RESULT'] = "#";
+$MESS['FRLM_COUNT_1'] = "Completed fields - ";
+$MESS['FRLM_COUNT_2'] = " of ";
+$MESS['FRLM_COUNT_3'] = " required";
+$MESS['FRLM_DELETE'] = "Delete application No.";
+$MESS['FRLM_EDIT'] = "edit";
+$MESS['FRLM_BUT_DELETE'] = "Delete";
+$MESS['FRLM_DEL_DELETE'] = "Warning! <br/> You delete the application from the system without the possibility of recovery!";
+$MESS['TIT_1'] = "Date";
+$MESS['TIT_2'] = "Request";
+$MESS['TIT_3'] = "Last Name";
+$MESS['TIT_4'] = "Edit";
+$MESS['TIT_5'] = "Status";
+$MESS['TIT_6'] = "Status";
+$MESS['TIT_7'] = "Delete";
+$MESS['ZDPM'] = "Debt";
+$MESS['FLY'] = "Flight";
+$MESS['HOTEL'] = "Accommodation";

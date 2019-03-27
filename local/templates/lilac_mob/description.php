@@ -1,0 +1,1 @@
+<?$arTemplate = Array("NAME" => "ДеАкс mobile", "DESCRIPTION" => "Вариант март 2019");?> 

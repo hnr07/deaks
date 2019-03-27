@@ -1,0 +1,330 @@
+.bx-mylist-layout .bx-mylist-form {
+margin:0;
+width:700px;
+
+border: solid 0px #bbbbbb;
+  -moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 10px; /* Safari, Chrome */
+  -khtml-border-radius: 10px; /* KHTML */
+  border-radius: 10px; /* CSS3 */
+
+	
+}
+
+.bx-mylist-layout .bx-mylist-form .bx-mylist-form-info {
+margin: 10px 0;
+}
+
+.bx-mylist-layout .bx-mylist-form div.bx-mylist-form-results {list-style-image: none; list-style-position: outside; list-style-type: none; margin: 0 0 5px 0; padding: 2px; border: solid 0px #B3C8D2;}
+
+.bx-mylist-layout .bx-mylist-form div.bx-mylist-form-results div.orad {
+display: block; 
+line-height: 1.4em; 
+padding: 0px;
+margin: 15px 0px;
+height:30px;
+border:solid 0px #56b146;/*#4793e7;*/
+	  -moz-border-radius: 8px; /* Firefox */
+  -webkit-border-radius: 8px; /* Safari, Chrome */
+  -khtml-border-radius: 8px; /* KHTML */
+  border-radius: 10px; /* CSS3 */
+   /*   -moz-box-shadow: 0 0 5px #56b146; /* Firefox */
+  /*  -webkit-box-shadow: 0 0 5px #56b146; /* Safari, Chrome */
+  /*  box-shadow: 0 0 5px #56b146; /* CSS3 */
+
+}
+.vurad {
+float:left;
+line-height: 1.4em; 
+padding: 4px;
+margin:5px 0px;
+/*height:20px;*/
+border:solid 2px #d7d7d7;/*#4793e7;*/
+	  -moz-border-radius: 8px; /* Firefox */
+  -webkit-border-radius: 8px; /* Safari, Chrome */
+  -khtml-border-radius: 8px; /* KHTML */
+  border-radius: 10px; /* CSS3 */
+}
+.vurad:hover {
+background:#fef2f2;
+border-color:#dacccc;
+
+}
+.vurad_a {
+background:#fef2f2;
+border-color:#dacccc;
+
+}
+.bx-mylist-layout .bx-mylist-form div.bx-mylist-form-results div.bx-mylist-row-0 {background-color: #FFFFFF;}
+.bx-mylist-layout .bx-mylist-form div.bx-mylist-form-results div.bx-mylist-row-1 {background-color: #F0F5F7;}
+
+.bx-mylist-layout .bx-mylist-form div.bx-mylist-form-results div .bx-mylist-form-status {
+float: right; 
+width: 200px; 
+margin-left: 5px; 
+padding-left: 5px; 
+
+}
+.bx-mylist-layout .bx-mylist-form div.bx-mylist-form-results div .bx-mylist-form-date {color: #808080;}
+
+.bx-mylist-layout .bx-mylist-form .bx-mylist-form-link {text-align: right;}
+.bx-mylist-layout .bx-mylist-form .bx-mylist-form-data {
+margin-right: 0px; 
+overflow: hidden; 
+height: 1.4em;
+
+}
+div.regi {
+float:right;
+	
+height:15px;
+border:solid 1px #bbb;
+margin:0px 15px;
+padding:0px 5px;
+	  -moz-border-radius: 5px; /* Firefox */
+  -webkit-border-radius: 5px; /* Safari, Chrome */
+  -khtml-border-radius: 5px; /* KHTML */
+  border-radius: 5px; /* CSS3 */
+      -moz-box-shadow:inset 0 0 5px #bbbbbb; /* Firefox */
+    -webkit-box-shadow:inset 0 0 5px #bbbbbb; /* Safari, Chrome */
+    box-shadow:inset 0 0 5px #bbbbbb; /* CSS3 */
+font-size:9pt;
+line-height:0.9;
+}
+div.indi {
+float:right;
+width:200px;
+height:15px;
+border:solid 1px #bbb;
+background: red url(images/rang_red.png) repeat-x;
+	  -moz-border-radius: 5px; /* Firefox */
+  -webkit-border-radius: 5px; /* Safari, Chrome */
+  -khtml-border-radius: 5px; /* KHTML */
+  border-radius: 5px; /* CSS3 */
+	
+}
+div.indi div.ceq {
+float:left;
+height:15px;
+background: green url(images/rang_green.png) repeat-x;
+
+}
+div.indi div.peq {
+position:absolute;
+top:-2px;;
+left:85px;
+height:15px;
+color:#fff;
+font-weight:bolder;
+
+}
+div.indu {
+float:right;
+width:200px;
+height:15px;
+border:solid 0px #bbb;
+
+	  -moz-border-radius: 5px; /* Firefox */
+  -webkit-border-radius: 5px; /* Safari, Chrome */
+  -khtml-border-radius: 5px; /* KHTML */
+  border-radius: 5px; /* CSS3 */
+
+}
+div.indu div{
+
+padding-left:5px; 
+ 
+}
+.but_del {
+float:left;
+width:20px;
+height:20px;
+cursor:pointer;
+/*background:  url(images/butdel_gray.png) no-repeat;*/
+font-size:18pt;
+margin:10px 5px 5px 0px;
+color:#fe0000;
+
+}
+
+
+.img_sn {
+width:200px;
+height:165px;
+position:absolute;
+top:-140px;
+left:-140px;
+background: url(images/snoska.png) no-repeat;
+z-index:10;
+display:none;
+}
+
+
+.but_del_0 {
+float:right;
+width:145px;
+height:40px;
+visibility:hidden;
+
+}
+
+div.orad .nde {
+display:none;
+}
+div.orad .naki {
+font-style:italic;
+font-size:9pt;
+}
+div.orad .pech {
+text-decoration:line-through;
+}
+div.orad .tefio {
+float:right;
+}
+
+div.orad .noifi {
+float:left;
+height:20px;
+width:250px;
+overflow: hidden; 
+	
+}
+div.orad .bued {
+float:left;
+height:20px;
+width:250px;
+overflow: hidden; 
+
+}
+div.orad .state {
+float:left;
+height:20px;
+width:100px;
+overflow: hidden;
+text-align:center; 
+font-size:7.5pt;
+
+}
+div.orad .bude {
+float:left;
+height:40px;
+width:40px;
+/*overflow: hidden; */
+position:relative;
+z-index:10;
+margin-left:10px;
+
+}
+div.orad .state  div{
+margin-left:2px;
+}
+div.orad .noifi .date {
+color: #808080;
+font-size:7.5pt;
+
+}
+
+.statusgreen {color: green;}
+.statusred {color: red;}
+.statusblue {color: blue;}
+.statusgray {color: gray;}
+.statuscoral {color: coral;}
+
+.del_del {
+width:300px;
+height:200px;
+padding:20px 20px;
+/*background:  url(images/delete_20.png) no-repeat;*/
+background-color:#fff;
+border:solid 1px #9c2525;
+color:#9c2525;
+	  -moz-border-radius: 5px; /* Firefox */
+  -webkit-border-radius: 5px; /* Safari, Chrome */
+  -khtml-border-radius: 5px; /* KHTML */
+  border-radius: 5px; /* CSS3 */
+        -moz-box-shadow: 0 0 20px #9c2525; /* Firefox */
+    -webkit-box-shadow:0 0 20px #9c2525; /* Safari, Chrome */
+    box-shadow: 0 0 20px #9c2525; /* CSS3 */
+	font-size:12pt;
+	position:absolute;
+top:200px;
+left:300px;
+display:none;	
+z-index:1;
+}
+.nich {
+width:100%;
+clear:both;
+}
+#tit {
+margin: 5px 0px;
+}
+#tit  div{
+text-align:center;
+
+border-right:solid 1px #a6a6a6;
+color:#a6a6a6;
+font-size:8pt;
+}
+#tit  #tit1{
+width:50px;
+}
+#tit  #tit2{
+width:60px;
+}
+#tit  #tit3{
+width:180px;
+}
+#tit  #tit4{
+width:200px;
+}
+#tit  #tit5{
+width:110px;
+}
+#tit  #tit6{
+width:180px;
+}
+#tit  #tit7{
+width:150px;
+border:0;
+}
+.text_calc {
+width:100%;
+
+border-top:dotted 1px #333;
+padding-top:10px;
+}
+.text_calc  div{
+margin:5px;
+}
+
+.text_calc  .no_nc{
+font-style: italic;
+color:#b4aaa9;
+}
+.text_calc  .no_tc{
+text-transform:uppercase;
+}
+.but_razvorot {
+width:20px;
+height:20px;
+float:left;
+font-size:12pt;
+margin:0px 5px;
+color:#6aa524;
+cursor:pointer;
+
+}
+.razvorot {
+clear:both;
+padding-top:10px;
+border:0px solid red;
+width:600px;
+margin:auto;
+}
+.razvorot  div{
+
+}
+.dinet {
+display:none;
+}
